@@ -1,0 +1,27 @@
+----------------------------------------------------------------------------------------------------
+[Var] Kiralama
+----------------------------------------------------------------------------------------------------
+Özellikler:
+	- ID 0*
+	- Aktiflik 1*
+	- Taşıt ID
+	- Üye Müşteri ID
+	- Kiralayan Şube ID
+	- Teslim Şubesi ID
+	- Kiralama Başlangıç Tarihi
+	- Kiralama Bitiş Tarihi
+	- Kiralama Planı
+	- Aşım Günü
+	- Olaylar
+	- Fatura
+----------------------------------------------------------------------------------------------------
+0*: ID şu şekilde oluşturulur: Taşıtın ID'sine Kiralama Başlangıç Tarihi eklenir.
+Örneğin: ID 34ABC202206282022 ise Taşıtın ID'si 34ABC2022, Kiralama başlangıç tarihi 06282022'dir.
+
+1* Kiralama tamamlanmamışsa 1'dir tamamlanmışsa 0'dır.
+----------------------------------------------------------------------------------------------------
+İlişkili Varlıklar:
+	- Kiralama Planı
+	- Olay
+	- Fatura
+----------------------------------------------------------------------------------------------------

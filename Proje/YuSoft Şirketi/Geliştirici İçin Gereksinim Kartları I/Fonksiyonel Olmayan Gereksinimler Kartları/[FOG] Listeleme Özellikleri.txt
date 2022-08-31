@@ -1,0 +1,22 @@
+----------------------------------------------------------------------------------------------------
+[Var] Listeleme Gereksinimleri
+----------------------------------------------------------------------------------------------------
+- Personel Listelemelerinde Personel Adına göre ARAMA yapılabilmelidir.
+- Personel Listelemelerinde Personel Mevkisine göre ARAMA yapılabilmelidir.
+
+- Yönetimsel Taşıt/Taşıt Listelemelerinde Taşıt Plakasına göre ARAMA yapılabilmelidir.
+
+- Sigorta Listelemelerinde Poliçe Numarasına göre ARAMA yapılabilmelidir.
+
+- Şube Listelemelerinde Şube Adına göre ARAMA yapılabilmelidir.
+
+- Üye Müşteri Listelemelerinde Üye Müşteri Adına göre ARAMA yapılabilmelidir.
+
+- Tamamlanmış Nakil Listelemede Yönetimsel Taşıt Plakasına göre ARAMA yapılabilmelidir.
+
+- Taşıt Kiralama Geçmişi Listelemede Taşıt Plakasına ve Üye Müşteri Adına göre ARAMA
+yapılabilmelidir.
+
+- Kiralama Takibinde Aktif Kiralama Listelemede Taşıt Plakasına ve Üye Müşteri Adına göre ARAMA
+yapılabilmelidir.
+----------------------------------------------------------------------------------------------------

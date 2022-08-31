@@ -1,0 +1,25 @@
+----------------------------------------------------------------------------------------------------
+[Var] MyCar Rent Şubesi : MyCar Rent Şubesi
+----------------------------------------------------------------------------------------------------
+Özellikler:
+	- ID 0* 1*
+	- Ad 1*
+	- Şube Müdürü 1*
+	- Kiralama Personeli 1*
+	- Hizmetli 1*
+	- Taşıtlar 1*
+	- Üye Müşteriler 1*
+	- Şube Mali Durumu 1*
+----------------------------------------------------------------------------------------------------
+0*: ID şu şekilde oluşturulur: Şubenin bulunduğu şehrin plakasına şubenin açılış sırası eklenir.
+Örneğin: Tokat şubesi ID'si 6001'dir. Ankara'daki şubelerin ID'leri sırasıyla 0601 ve 0602'dir.
+Bu şekile benzersiz ID'ler oluşturulur.
+
+1*: MyCar Rent Şubesinden gelen özellikler.
+----------------------------------------------------------------------------------------------------
+İlişkili Varlıklar:
+	- Personel
+	- Taşıt
+	- Üye Müşteri
+	- Şube Mali Durumu
+----------------------------------------------------------------------------------------------------

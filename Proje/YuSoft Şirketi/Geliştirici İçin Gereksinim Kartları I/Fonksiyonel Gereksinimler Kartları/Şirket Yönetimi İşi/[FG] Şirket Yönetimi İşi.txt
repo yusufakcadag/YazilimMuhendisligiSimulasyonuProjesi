@@ -1,0 +1,419 @@
+----------------------------------------------------------------------------------------------------
+[FG] Şirket Yönetimi İşi : Şirket Yönetimi İşi
+----------------------------------------------------------------------------------------------------
+Erişir: Şirket Yöneticileri
+----------------------------------------------------------------------------------------------------
+Fonksiyonlar:
+	- Mali Gelir Kaydetme
+		Yapılan İş:
+			- Mali Gelir adı seçilir.
+			- Negatif olmayan değer girilir.
+			- Şirket Mali Durumuna Mali Gelir kaydedilir.
+			- Kaydetme için onaylama gerekir.
+
+	- Mali Gelir Silme
+		Yapılan İş:
+			- Şirket Mali Durumu Mali Gelirleri Adıyla listelenir.
+			- Seçilen Mali Gelir silinir.
+			- Silme için onaylama gerekir.
+
+	- Mali Gelir Güncelleme
+		Yapılan İş:
+			- Şirket Mali Durumu Mali Gelirleri Adıyla listelenir.
+			- Mali Gelir seçilir.
+			- Negatif olmayan yeni değer girilir.
+			- Seçilen Mali Gelir güncellenir.
+			- Güncelleme için onaylama gerekir.
+
+	- Mali Gider Kaydetme
+		Yapılan İş:
+			- Mali Gider adı seçilir.
+			- Negatif olmayan değer girilir.
+			- Şirket Mali Durumuna Mali Gider kaydedilir.
+			- Kaydetme için onaylama gerekir.
+
+	- Mali Gider Silme
+		Yapılan İş:
+			- Şirket Mali Durumu Mali Giderleri Adıyla listelenir.
+			- Seçilen Mali Gider silinir.
+			- Silme için onaylama gerekir.
+
+	- Mali Gider Güncelleme
+		Yapılan İş:
+			- Şirket Mali Durumu Mali Giderleri Adıyla listelenir.
+			- Mali Gider seçilir.
+			- Negatif olmayan yeni değer girilir.
+			- Seçilen Mali Gider güncellenir.
+			- Güncelleme için onaylama gerekir.
+
+	- Şirket Mali Durumu Gösterme
+		Yapılan İş:
+			- Aylık, üç (3) aylık, altı (6) aylık ya da yıllık periyot seçilir.
+			- Şirket Mali Durumu gösterilir.
+			- Net kar pozitifse yeşille, negatifse kırmızıyla gösterilir.
+
+	- Şoför Kaydetme
+		Yapılan İş:
+			- Özellikler boş bırakılmadan doldurulur.
+			- Şoför kaydedilir.
+			- Kaydetme için onaylama gerekir.
+
+	- Şoför Silme
+		Yapılan İş:
+			- Şoförler TCKN, Ad ve Soyad özellikleriyle listelenir.
+			- Seçilen Şoför silinir.
+			- Silme için onaylama gerekir.
+
+	- Şoför Güncelleme
+		Yapılan İş:
+			- Şoförler TCKN, Ad ve Soyad özellikleriyle listelenir.
+			- Soför seçilir.
+			- Yeni özellikler boş bırakılmadan doldurulur.
+			- Seçilen Şoför güncellenir.
+			- Güncelleme için onaylama gerekir.
+
+	- Şoförleri Listeleme
+		Yapılan İş:
+			- Şoförler TCKN, Ad ve Soyad özellikleriyle listelenir.
+			- Seçilen Şoför gösterilir.
+
+	- Şoför Olay Kaydetme
+		Yapılan İş:
+			- Şoförler TCKN, Ad ve Soyad özellikleriyle listelenir.
+			- Seçilen Şoföre Olay kaydedilir.
+			- Özellikler boş bırakılmadan doldurulur.
+			- Kaydetme için onaylama gerekir.
+
+	- Şoför Olay Silme
+		Yapılan İş:
+			- Şoförler TCKN, Ad ve Soyad özellikleriyle listelenir.
+			- Seçilen Soförün Olayları Başlığıyla listelenir.
+			- Olay seçilir ve gösterilir.
+			- Seçilen Olay silinir.
+			- Silme için onaylama gerekir.
+
+	- Şoför Olay Güncelleme
+		Yapılan İş:
+			- Şoförler TCKN, Ad ve Soyad özellikleriyle listelenir.
+			- Seçilen Soförün Olayları Başlığıyla listelenir.
+			- Seçilen Olay gösterilir.
+			- Yeni Açıklama ve Başlık girilir.
+			- Seçilen Olay güncellenir.
+			- Güncelleme için onaylama gerekir.
+
+	- Şoför Olayları Listeleme
+			Yapılan İş:
+			- Şoförler TCKN, Ad ve Soyad özellikleriyle listelenir.
+			- Seçilen Soförün Olayları Başlığıyla listelenir.
+			- Seçilen Olay gösterilir.
+
+	- Yönetimsel Taşıt Kaydetme
+		Yapılan İş:
+			- Özellikler boş bırakılmadan doldurulur.
+			- Yönetimsel Taşıt kaydedilir.
+			- Kaydetme için onaylama gerekir.
+
+	- Yönetimsel Taşıt Silme
+		Yapılan İş:
+			- Yönetimsel Taşıtlar Plaka, Marka ve Model özelliğiyle listelenir.
+			- Seçilen Yönetimsel Taşıt silinir.
+			- Silme için onaylama gerekir.
+
+	- Yönetimsel Taşıt Güncelleme
+		Yapılan İş:
+			- Yönetimsel Taşıtlar Plaka, Marka ve Model özelliğiyle listelenir.
+			- Yösetimsel Taşıt seçilir.
+			- Yeni özellikler boş bırakılmadan doldurulur.
+			- Seçilen Yönetimsel Taşıt güncellenir.
+			- Güncelleme için onaylama gerekir.
+
+	- Yönetimsel Taşıt Listeleme
+		Yapılan İş:
+			- Yönetimsel Taşıtlar Plaka, Marka ve Model özelliğiyle listelenir.
+			- Seçilen Yönetimsel Taşıt gösterilir.
+
+	- Yönetimsel Taşıt Mali Durumu Gösterme
+		Yapılan İş:
+			- Aylık, üç (3) aylık, altı (6) aylık ya da yıllık periyot seçilir.
+			- Yönetimsel Taşıtlar Plaka, Marka ve Model özelliğiyle listelenir.
+			- Seçilen Yönetimsel Taşıtın Mali Durumu gösterilir.
+			- Net kar negatif olduğu için kırmızıyla gösterilir.
+
+	- Yönetimsel Taşıt Sigorta Kaydetme
+		Yapılan İş:
+			- Yönetimsel Taşıtlar Plaka, Marka ve Model özelliğiyle listelenir.
+			- Seçilen Yönetimsel Taşıta Sigorta kaydedilir.
+			- Özellikler boş bırakılmadan doldurulur.
+			- Kaydetme için onaylama gerekir.
+			- Sigorta Ücreti Yönetimsel Taşıt Mali Durumuna Sigorta Gideri olarak kaydedilir.
+
+	- Yönetimsel Taşıt Sigorta Silme
+		Yapılan İş:
+			- Yönetimsel Taşıtlar Plaka, Marka ve Model özelliğiyle listelenir.
+			- Seçilen Yönetimsel Taşıtın Sigortaları Poliçe Numarasıyla listelenir.
+			- Seçilen Sigorta silinir.
+			- Silme için onaylama gerekir.
+
+	- Yönetimsel Taşıt Sigorta Güncelleme
+		Yapılan İş:
+			- Yönetimsel Taşıtlar Plaka, Marka ve Model özelliğiyle listelenir.
+			- Seçilen Yönetimsel Taşıtın Sigortaları Poliçe Numarasıyla listelenir.
+			- Seçilen Sigorta gösterilir.
+			- Yeni özellikler boş bırakılmadan doldurulur.
+			- Seçilen Sigorta güncellenir.
+			- Güncelleme için onaylama gerekir.
+
+	- Yönetimsel Taşıt Sigortalarını Listeleme
+		Yapılan İş:
+			- Yönetimsel Taşıtlar Plaka, Marka ve Model özelliğiyle listelenir.
+			- Seçilen Yönetimsel Taşıtın Sigortaları Poliçe Numarasıyla listelenir.
+			- Seçilen Sigorta gösterilir.
+
+	- Yönetimsel Taşıt Bakım Kaydetme
+		Yapılan İş:
+			- Yönetimsel Taşıtlar Plaka, Marka ve Model özelliğiyle listelenir.
+			- Seçilen Yönetimsel Taşıta Bakım kaydedilir.
+			- Özellikler boş bırakılmadan doldurulur.
+			- Kaydetme için onaylama gerekir.
+			- Bakım Ücreti Yönetimsel Taşıt Mali Durumuna Bakım Gideri olarak kaydedilir.
+
+	- Yönetimsel Taşıt Bakım Silme
+		Yapılan İş:
+			- Yönetimsel Taşıtlar Plaka, Marka ve Model özelliğiyle listelenir.
+			- Seçilen Yönetimsel Taşıtın Bakımları Başlığıyla listelenir.
+			- Seçilen Bakım silinir.
+			- Silme için onaylama gerekir.
+
+	- Yönetimsel Taşıt Bakım Güncelleme
+		Yapılan İş:
+			- Yönetimsel Taşıtlar Plaka, Marka ve Model özelliğiyle listelenir.
+			- Seçilen Yönetimsel Taşıtın Bakımları Başlığıyla listelenir.
+			- Seçilen Bakım gösterilir.
+			- Yeni özellikler boş bırakılmadan doldurulur.
+			- Seçilen Bakım güncellenir.
+			- Güncelleme için onaylama gerekir.
+
+	- Yönetimsel Taşıt Bakımlarını Listeleme
+		Yapılan İş:
+			- Yönetimsel Taşıtlar Plaka, Marka ve Model özelliğiyle listelenir.
+			- Seçilen Yönetimsel Taşıtın Bakımları Başlığıyla listelenir.
+			- Seçilen Bakım gösterilir.
+
+	- Yönetimsel Taşıt Gövde Durumu Güncelleme
+		Yapılan İş:
+			- Yönetimsel Taşıtlar Plaka, Marka ve Model özelliğiyle listelenir.
+			- Seçilen Yönetimsel Taşıtın Gövde Durumu gösterilir.
+			- Seçilen gövde parçasının durumu işaretlenir.
+			- Gövde Durumu güncellenir.
+			- Güncelleme için onaylama gerekir.
+
+	- Yönetimsel Taşıt Gövde Durumu Gösterme
+		Yapılan İş:
+			- Yönetimsel Taşıtlar Plaka, Marka ve Model özelliğiyle listelenir.
+			- Seçilen Yönetimsel Taşıtın Gövde Durumu gösterilir.
+
+	- Şube Kaydetme
+		Yapılan İş:
+			- Özellikler boş bırakılmadan doldurulur.
+			- Şube kaydedilir.
+			- Kaydetme için onaylama gerekir.
+
+	- Şube Silme
+		Yapılan İş:
+			- Şubeler Adıyla listelenir.
+			- Seçilen Şube silinir.
+			- Silme için onaylama gerekir.
+
+	- Şube Güncelleme
+		Yapılan İş:
+			- Şubeler Adıyla listelenir.
+			- Şube seçilir.
+			- Yeni özellikler boş bırakılmadan doldurulur.
+			- Seçilen Şube güncellenir.
+			- Güncelleme için onaylama gerekir.
+
+	- Şubeleri Listeleme
+		Yapılan İş:
+			- Şubeler Adıyla listelenir.
+			- Seçilen Şube gösterilir.
+
+	- Şube Mali Durumu Gösterme
+		Yapılan İş:
+			- Şubeler Adıyla listelenir.
+			- Aylık, üç (3) aylık, altı (6) aylık ya da yıllık periyot seçilir.
+			- Seçilen Şirket Mali Durumu gösterilir.
+			- Net kar pozitifse yeşille, negatifse kırmızıyla gösterilir.
+
+	- Şube Müdürü Kaydetme
+		Yapılan İş:
+			- Şubeler Adıyla listelenir.
+			- Seçilen Şubeye Şube Müdürü kaydedilir.
+			- Özellikler boş bırakılmadan doldurulur.
+			- Kaydetme için onaylama gerekir.
+
+	- Şube Müdürü Silme
+		Yapılan İş:
+			- Şubeler Adıyla listelenir.
+			- Seçilen Şubenin Şube Müdürü TCKN, Ad ve Soyad özellikleriyle listelenir.
+			- Seçilen Şube Müdürü silinir.
+			- Silme için onaylama gerekir.
+
+	- Şube Müdürü Güncelleme
+		Yapılan İş:
+			- Şubeler Adıyla listelenir.
+			- Seçilen Şubenin Şube Müdürü TCKN, Ad ve Soyad özellikleriyle listelenir.
+			- Yeni özellikler boş bırakılmadan doldurulur.
+			- Şube Müdürü güncellenir.
+			- Güncelleme için onaylama gerekir.
+
+	- Şube Personelleri Listeleme
+		Yapılan İş:
+			- Şubeler Adıyla listelenir.
+			- Seçilen Şubenin Personelleri Mevki, TCKN, Ad ve Soyad özellikleriyle listelenir.
+			- Seçilen Personel gösterilir.
+
+	- Şube Taşıtları Listeleme
+		Yapılan İş:
+			- Şubeler Adıyla listelenir.
+			- Seçilen Şubenin Taşıtları Plaka, Marka ve Model özellikleriyle listelenir.
+			- Seçilen Taşıt gösterilir.
+
+	- Şube Üye Müşterileri Listeleme
+		Yapılan İş:
+			- Tüm Üye Müşteriler TCKN, Adı ve Soyadı özellikleriyle listelenir.
+			- Şubeler Adıyla listelenir.
+			- Seçilen Şubenin Üye Müşterileri TCKN, Adı ve Soyadı özellikleriyle listelenir.
+			- Seçilen Üye Müşteri gösterilir.
+
+	- Şube Varlıkları İçin Olay Kaydetme
+		Yapılan İş:
+			- Şubeler Adıyla listelenir.
+			- Seçilen Şubenin seçilen varlık türünün varlıkları listelenir.
+			- Personeller ve Üye Müşteriler TCKN, Ad ve Soyad özellikleriyle listelenir.
+			- Taşıtlar Plaka, Marka ve Model özellikleriyle listelenir.
+			- Seçilen varlığa Olay kaydedilir.
+			- Özellikler boş bırakılmadan doldurulur.
+			- Kaydetme için onaylama gerekir.
+
+	- Şube Varlıkları İçin Olay Silme
+		Yapılan İş:
+			- Şubeler Adıyla listelenir.
+			- Seçilen Şubenin seçilen varlık türünün varlıkları listelenir.
+			- Personeller ve Üye Müşteriler TCKN, Ad ve Soyad özellikleriyle listelenir.
+			- Taşıtlar Plaka, Marka ve Model özellikleriyle listelenir.
+			- Seçilen varlığın Olayları Başlığıyla listelenir.
+			- Olay seçilir ve gösterilir.
+			- Seçilen Olay silinir.
+			- Silme için onaylama gerekir.
+
+	- Şube Varlıkları İçin Olay Güncelleme
+		Yapılan İş:
+			- Şubeler Adıyla listelenir.
+			- Seçilen Şubenin seçilen varlık türünün varlıkları listelenir.
+			- Personeller ve Üye Müşteriler TCKN, Ad ve Soyad özellikleriyle listelenir.
+			- Taşıtlar Plaka, Marka ve Model özellikleriyle listelenir.
+			- Seçilen varlığın Olayları Başlığıyla listelenir.
+			- Seçilen Olay gösterilir.
+			- Yeni Açıklama ve Başlık girilir.
+			- Seçilen Olay güncellenir.
+			- Güncelleme için onaylama gerekir.
+
+	- Şube Varlıkları İçin Olay Listeleme
+		Yapılan İş:
+			- Şubeler Adıyla listelenir.
+			- Seçilen Şubenin seçilen varlık türünün varlıkları listelenir.
+			- Personeller ve Üye Müşteriler TCKN, Ad ve Soyad özellikleriyle listelenir.
+			- Taşıtlar Plaka, Marka ve Model özellikleriyle listelenir.
+			- Seçilen varlığın Olayları Başlığıyla listelenir.
+			- Seçilen Olay gösterilir.
+
+	- Kendi Şubesinde Olmayan Taşıtları Listeleme
+		Yapılan İş:
+			- Kendi Şubesinde olmayan Taşıtlar Plaka, Marka, Model, kendi Şubesinin Adı ve
+			bulunduğu Şubenin Adı özellikleriyle listelenir.
+			- Seçilen Taşıt gösterilir.
+
+	- Taşıt Nakletme
+		Yapılan İş:
+			- Kendi Şubesinde olmayan Taşıtlar Plaka, Marka, Model, kendi Şubesinin Adı ve
+			bulunduğu Şubenin Adı özellikleriyle listelenir.
+			- Taşıt seçilir ve kendi şubesinde bulunmadığı süre gösterilir.
+			- Taşıt onaylanır.
+			- Şoförler TCKN, Ad ve Soyad özellikleriyle listelenir.
+			- Şoför seçilir.
+			- Şoför onaylanır.
+			- Başlangıç tarihi seçilir.
+			- Tarih onaylanır.
+			- Nakletme başlatılır.
+			- Başlatma onaylanır.
+
+	- Nakil Takibi
+		Yapılan İş:
+			- Aktif Nakiller Taşıt için Plaka, Şoför için TCKN, Ad, Soyad ve Nakil Başlangıç
+			Tarihi özellikleriyle listelenir.
+			- Seçilen Nakil Gösterilir.
+
+	- Aktif Nakil Olay Kaydetme
+		Yapılan İş:
+			- Aktif Nakiller Taşıt için Plaka, Şoför için TCKN, Ad, Soyad ve Nakil Başlangıç
+			Tarihi özellikleriyle listelenir.
+			- Seçilen Nakile Olay kaydedilir.
+			- Özellikler boş bırakılmadan doldurulur.
+			- Kaydetme için onaylama gerekir.
+
+	- Aktif Nakil Olay Silme
+		Yapılan İş:
+			- Aktif Nakiller Taşıt için Plaka, Şoför için TCKN, Ad, Soyad ve Nakil Başlangıç
+			Tarihi özellikleriyle listelenir.
+			- Seçilen Naklin Olayları Başlığıyla listelenir.
+			- Olay seçilir ve gösterilir.
+			- Seçilen Olay silinir.
+			- Silme için onaylama gerekir.
+
+	- Aktif Nakil Olay Güncelleme
+		Yapılan İş:
+			- Aktif Nakiller Taşıt için Plaka, Şoför için TCKN, Ad, Soyad ve Nakil Başlangıç
+			Tarihi özellikleriyle listelenir.
+			- Seçilen Naklin Olayları Başlığıyla listelenir.
+			- Seçilen Olay gösterilir.
+			- Yeni Açıklama ve Başlık girilir.
+			- Seçilen Olay güncellenir.
+			- Güncelleme için onaylama gerekir.
+
+	- Aktif Nakil Olayları Listeleme
+		Yapılan İş:
+			- Aktif Nakiller Taşıt için Plaka, Şoför için TCKN, Ad, Soyad ve Nakil Başlangıç
+			Tarihi özellikleriyle listelenir.
+			- Seçilen Naklin Olayları Başlığıyla listelenir.
+			- Seçilen Olay gösterilir.
+
+	- Nakil Tamamlama
+		Yapılan İş:
+			- Aktif Nakiller Taşıt için Plaka, Şoför için TCKN, Ad, Soyad ve Nakil Başlangıç
+			Tarihi özellikleriyle listelenir.
+			- Seçilen Nakil tamamlanır.
+			- Ücreti girilir.
+			- Tamamlama onaylanır.
+			- Nakletme tamamlandığında Ücreti Şirket Mali Durumuna Nakil Gideri olarak
+			kaydedilir.
+
+	- Tamamlanmış Nakil Listeleme
+			Yapılan İş:
+			- Tamamlanmış Nakiller Taşıt için Plaka, Şoför için TCKN, Ad, Soyad ve Nakil
+			Başlangıç Tarihi özellikleriyle listelenir.
+			- Seçilen Nakil gösterilir.
+
+	- Tamamlanmış Nakil Olayları Listeleme
+			Yapılan İş:
+			- Tamamlanmış Nakiller Taşıt için Plaka, Şoför için TCKN, Ad, Soyad ve Nakil
+			Başlangıç Tarihi özellikleriyle listelenir.
+			- Seçilen Naklin Olayları Başlığıyla listelenir.
+			- Seçilen Olay gösterilir.
+----------------------------------------------------------------------------------------------------
+İlişkili Varlıklar:
+	- Şirket Mali Durumu
+	- Şoför
+	- Yönetimsel Taşıt
+	- MyCar Rent Şubesi
+	- Nakil
+----------------------------------------------------------------------------------------------------

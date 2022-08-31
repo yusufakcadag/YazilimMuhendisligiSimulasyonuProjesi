@@ -1,0 +1,9 @@
+----------------------------------------------------------------------------------------------------
+[Var] Güvenilebilirlik
+----------------------------------------------------------------------------------------------------
+- Sistem çalışma saatleri içerisinde ERİŞİLEBİLİR olmalıdır.
+- Sistem GÜVENİLİR olmalıdır. Kendisinden beklenilen işlevselliği karşılamalıdır. Ekonomik hasarlara
+neden olmamalıdır.
+- Sistem GÜVENLİ olmalıdır. Dışarıdan sisteme girilememelidir ve içerideki kişiler sadece kendisine
+yetki verilen işlevselliklere ve varlıklara ulaşılabilmelidir.
+----------------------------------------------------------------------------------------------------

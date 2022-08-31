@@ -1,0 +1,26 @@
+----------------------------------------------------------------------------------------------------
+[Var] Gövde Durumu
+----------------------------------------------------------------------------------------------------
+Özellikler:
+	- ID 0*
+	- Sahip ID 1*
+	- Ön Tampon 2*
+	- Kaput 2*
+	- Tavan 2*
+	- Ön Sağ Kapı 2*
+	- Ön Sol Kapı 2*
+	- Arka Sağ Kapı 2*
+	- Arka Sol Kapı 2*
+	- Arka Tampon 2*
+----------------------------------------------------------------------------------------------------
+0*: ID şu şekilde oluşturulur: Gövde Durumunun sahibinin türüne 0'dan başlayarak numara atanır.
+Bu numaraya sahibin ID'si eklenir. Örnek: Taşıt için 0, Yönetimsel Taşıt için 1. Taşıtın ID'si
+34ABC2022 ise Gövde Durumunun ID'si 034ABC2022'dir.
+
+1*: Gövde Durumu sahibinin ID'si.
+
+2*: Bu veriler Boyalı, Değişen ve Hasarlı olabilir. O yüzden "boolean" dizisi şeklinde tutulur.
+----------------------------------------------------------------------------------------------------
+İlişkili Varlıklar:
+	-
+----------------------------------------------------------------------------------------------------

@@ -1,0 +1,89 @@
+----------------------------------------------------------------------------------------------------
+[FG] Üye Müşteri Yönetimi İşi : Şube Yönetimi İşi
+----------------------------------------------------------------------------------------------------
+Erişir: Şube Müdürü & Kiralama Personeli
+----------------------------------------------------------------------------------------------------
+Fonksiyonlar:
+	- Üye Müşteri Kaydetme
+		Yapılan İş:
+			- Özellikler boş bırakılmadan doldurulur.
+			- Üye Müşteri kaydedilir.
+			- Kaydetme için onaylama gerekir.
+
+	- Üye Müşteri Silme
+		Yapılan İş:
+			- Üye Müşteriler TCKN, Ad ve Soyad özellikleriyle listelenir.
+			- Seçilen Üye Müşteri silinir.
+			- Silme için onaylama gerekir.
+
+	- Üye Müşteri Güncelleme
+		Yapılan İş:
+			- Üye Müşteriler TCKN, Ad ve Soyad özellikleriyle listelenir.
+			- Üye Müşteri seçilir.
+			- Yeni özellikler boş bırakılmadan doldurulur.
+			- Seçilen Üye Müşteri güncellenir.
+			- Güncelleme için onaylama gerekir.
+
+	- Üye Müşterileri Listeleme
+		Yapılan İş:
+			- Üye Müşteriler TCKN, Ad ve Soyad özellikleriyle listelenir.
+			- Seçilen Üye Müşteri gösterilir.
+
+	! Sadece Şube Müdürü Erişir !
+	- Üye Müşteriyi Kara Listeye Kaydetme
+		Yapılan İş:
+			- Üye Müşteriler TCKN, Ad ve Soyad özellikleriyle listelenir.
+			- Seçilen Üye Müşteri Kara Listeye kaydedilir.
+
+	! Sadece Şube Müdürü Erişir !
+	- Kara Liste Listeleme
+		Yapılan İş:
+			- Kara Listede olan Üye Müşteriler TCKN, Ad ve Soyad özellikleriyle listelenir.
+			- Seçilen Üye Müşteri gösterilir.
+
+	- Kiralık Taşıtı Olan Üye Müşterileri Listeleme
+		Yapılan İş:
+			- Kiralık Taşıtı olan Üye Müşteriler TCKN, Ad ve Soyad özellikleriyle listelenir.
+			- Seçilen Üye Müşteri gösterilir.
+
+	- Üye Müşteri Kiralama Geçmişi Listeleme
+		Yapılan İş:
+			- Üye Müşteriler TCKN, Ad ve Soyad özellikleriyle listelenir.
+			- Seçilen Üye Müşterinin Kiralama Geçmişi listelenir.
+			- Kiralama Geçmişi Taşıt için Plaka, Üye Müşteri için TCKN, Ad, Soyad ve Kiralama
+			Tarihi özellikleriyle listelenir.
+			- Seçilen Kiralama Geçmişi gösterilir.
+
+	- Üye Müşteri Olay Kaydetme
+		Yapılan İş:
+			- Üye Müşteriler TCKN, Ad ve Soyad özellikleriyle listelenir.
+			- Seçilen Üye Müşteriye Olay kaydedilir.
+			- Özellikler boş bırakılmadan doldurulur.
+			- Kaydetme için onaylama gerekir.
+
+	- Üye Müşteri Olay Silme
+		Yapılan İş:
+			- Üye Müşteriler TCKN, Ad ve Soyad özellikleriyle listelenir.
+			- Seçilen Üye Müşterinin Olayları Başlığıyla listelenir.
+			- Olay seçilir ve gösterilir.
+			- Seçilen Olay silinir.
+			- Silme için onaylama gerekir.
+
+	- Üye Müşteri Olay Güncelleme
+		Yapılan İş:
+			- Üye Müşteriler TCKN, Ad ve Soyad özellikleriyle listelenir.
+			- Seçilen Üye Müşterinin Olayları Başlığıyla listelenir.
+			- Seçilen Olay gösterilir.
+			- Yeni Açıklama ve Başlık girilir.
+			- Seçilen Olay güncellenir.
+			- Güncelleme için onaylama gerekir.
+
+	- Üye Müşteri Olayları Listeleme
+		Yapılan İş:
+			- Üye Müşteriler TCKN, Ad ve Soyad özellikleriyle listelenir.
+			- Seçilen Üye Müşterinin Olayları Başlığıyla listelenir.
+			- Seçilen Olay gösterilir.
+----------------------------------------------------------------------------------------------------
+İlişkili Varlıklar:
+	- Üye Müşteri
+----------------------------------------------------------------------------------------------------

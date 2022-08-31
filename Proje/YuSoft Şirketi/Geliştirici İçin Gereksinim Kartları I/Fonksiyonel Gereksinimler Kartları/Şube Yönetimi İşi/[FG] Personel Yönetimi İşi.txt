@@ -1,0 +1,67 @@
+----------------------------------------------------------------------------------------------------
+[FG] Personel Yönetimi İşi : Şube Yönetimi İşi
+----------------------------------------------------------------------------------------------------
+Erişir: Şube Müdürü
+----------------------------------------------------------------------------------------------------
+Fonksiyonlar:
+	- Personel Kaydetme
+		Yapılan İş:
+			- Personel kaydedilecek mevki seçilir.
+			- Özellikler boş bırakılmadan doldurulur.
+			- Personel kaydedilir.
+			- Kaydetme için onaylama gerekir.
+
+	- Personel Silme
+		Yapılan İş:
+			- Personeller Mevki, TCKN, Ad ve Soyad özellikleriyle listelenir.
+			- Seçilen Personel silinir.
+			- Silme için onaylama gerekir.
+
+	- Personel Güncelleme
+		Yapılan İş:
+			- Personeller Mevki, TCKN, Ad ve Soyad özellikleriyle listelenir.
+			- Personel seçilir.
+			- Yeni özellikler boş bırakılmadan doldurulur.
+			- Seçilen Personel güncellenir.
+			- Güncelleme için onaylama gerekir.
+
+	- Personelleri Listeleme
+		Yapılan İş:
+			- Personeller Mevki, TCKN, Ad ve Soyad özellikleriyle listelenir.
+			- Seçilen Personel gösterilir.
+
+	- Personel Olay Kaydetme
+		Yapılan İş:
+			- Personeller Mevki, TCKN, Ad ve Soyad özellikleriyle listelenir.
+			- Seçilen Personele Olay kaydedilir.
+			- Özellikler boş bırakılmadan doldurulur.
+			- Kaydetme için onaylama gerekir.
+
+	- Personel Olay Silme
+		Yapılan İş:
+			- Personeller Mevki, TCKN, Ad ve Soyad özellikleriyle listelenir.
+			- Seçilen Personelin Olayları Başlığıyla listelenir.
+			- Olay seçilir ve gösterilir.
+			- Seçilen Olay silinir.
+			- Silme için onaylama gerekir.
+
+	- Personel Olay Güncelleme
+		Yapılan İş:
+			- Personeller Mevki, TCKN, Ad ve Soyad özellikleriyle listelenir.
+			- Seçilen Personelin Olayları Başlığıyla listelenir.
+			- Seçilen Olay gösterilir.
+			- Yeni Açıklama ve Başlık girilir.
+			- Seçilen Olay güncellenir.
+			- Güncelleme için onaylama gerekir.
+
+	- Personel Olayları Listeleme
+			Yapılan İş:
+			- Personeller Mevki, TCKN, Ad ve Soyad özellikleriyle listelenir.
+			- Seçilen Personelin Olayları Başlığıyla listelenir.
+			- Seçilen Olay gösterilir.
+----------------------------------------------------------------------------------------------------
+İlişkili Varlıklar:
+	- Kiralama Personeli
+	- Hizmetli
+	- Olay
+----------------------------------------------------------------------------------------------------

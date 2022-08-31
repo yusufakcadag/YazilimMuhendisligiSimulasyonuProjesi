@@ -1,0 +1,57 @@
+----------------------------------------------------------------------------------------------------
+[FG] Şube Yönetimi İşi : Şube Yönetimi İşi
+----------------------------------------------------------------------------------------------------
+Erişir: Şube Müdürü
+----------------------------------------------------------------------------------------------------
+Fonksiyonlar:
+	- Mali Gelir Kaydetme
+		Yapılan İş:
+			- Mali Gelir adı seçilir.
+			- Negatif olmayan değer girilir.
+			- Şube Mali Durumuna Mali Gelir kaydedilir.
+			- Kaydetme için onaylama gerekir.
+
+	- Mali Gelir Silme
+		Yapılan İş:
+			- Şube Mali Durumu Mali Gelirleri Adıyla listelenir.
+			- Seçilen Mali Gelir silinir.
+			- Silme için onaylama gerekir.
+
+	- Mali Gelir Güncelleme
+		Yapılan İş:
+			- Şube Mali Durumu Mali Gelirleri Adıyla listelenir.
+			- Mali Gelir seçilir.
+			- Negatif olmayan yeni değer girilir.
+			- Seçilen Mali Gelir güncellenir.
+			- Güncelleme için onaylama gerekir.
+
+	- Mali Gider Kaydetme
+		Yapılan İş:
+			- Mali Gider adı seçilir.
+			- Negatif olmayan değer girilir.
+			- Şube Mali Durumuna Mali Gider kaydedilir.
+			- Kaydetme için onaylama gerekir.
+
+	- Mali Gider Silme
+		Yapılan İş:
+			- Şube Mali Durumu Mali Giderleri Adıyla listelenir.
+			- Seçilen Mali Gider silinir.
+			- Silme için onaylama gerekir.
+
+	- Mali Gider Güncelleme
+		Yapılan İş:
+			- Şube Mali Durumu Mali Giderleri Adıyla listelenir.
+			- Mali Gider seçilir.
+			- Negatif olmayan yeni değer girilir.
+			- Seçilen Mali Gider güncellenir.
+			- Güncelleme için onaylama gerekir.
+
+	- Şube Mali Durumu Gösterme
+		Yapılan İş:
+			- Aylık, üç (3) aylık, altı (6) aylık ya da yıllık periyot seçilir.
+			- Şube Mali Durumu gösterilir.
+			- Net kar pozitifse yeşille, negatifse kırmızıyla gösterilir.
+----------------------------------------------------------------------------------------------------
+İlişkili Varlıklar:
+	- Şube Mali Durumu
+----------------------------------------------------------------------------------------------------

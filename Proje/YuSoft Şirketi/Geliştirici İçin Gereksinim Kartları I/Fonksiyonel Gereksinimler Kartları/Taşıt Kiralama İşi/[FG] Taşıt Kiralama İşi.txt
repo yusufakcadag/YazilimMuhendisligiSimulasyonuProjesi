@@ -1,0 +1,94 @@
+----------------------------------------------------------------------------------------------------
+[FG] Taşıt Kiralama İşi : Taşıt Kiralama İşi
+----------------------------------------------------------------------------------------------------
+Erişir: Şube Müdürü & Kiralama Personeli
+----------------------------------------------------------------------------------------------------
+Fonksiyonlar:
+	- Taşıt Kiralama
+		Yapılan İş:
+			- Kara Listede olmayan Üye Müşteriler TCKN, Ad ve Soyad özellikleriyle listelenir.
+			- Üye Müşteri seçilir.
+			- Üye Müşteri onaylanır.
+			- Şubedeki Taşıtlar Plaka, Marka ve Model özelliğiyle listelenir.
+			- Taşıt seçilir.
+			- Taşıt onaylanır.
+			- Teslim Şubesi seçilir. Seçilen Taşıt o Şubeye ait değilse sadece kendi Şubesi
+			seçilebilir.
+			- Teslim Şubesi onaylanır.
+			- Başlangıç tarihi seçilir.
+			- Tarih onaylanır.
+			- Kiralama Planı seçilir. Seçilen Taşıt o Şubeye ait değilse sadece günlük plan
+			seçilir.
+			- Kiralama Planı onaylanır.
+			- Kiralama başlatılır.
+			- Başlatma onaylanır.
+
+	- Kiralama Takibi
+		Yapılan İş:
+			- Aktif Kiralamalar Taşıt için Plaka, Üye Müşteri için TCKN, Ad, Soyad ve
+			Kiralama Başlangıç Tarihi özellikleriyle listelenir.
+			- Seçilen Kiralama Gösterilir.
+
+	- Aktif Kiralama Olay Kaydetme
+		Yapılan İş:
+			- Aktif Kiralamalar Taşıt için Plaka, Üye Müşteri için TCKN, Ad, Soyad ve
+			Kiralama Başlangıç Tarihi özellikleriyle listelenir.
+			- Seçilen Kiralamaya Olay kaydedilir.
+			- Özellikler boş bırakılmadan doldurulur.
+			- Kaydetme için onaylama gerekir.
+
+	- Aktif Kiralama Olay Silme
+		Yapılan İş:
+			- Aktif Kiralamalar Taşıt için Plaka, Üye Müşteri için TCKN, Ad, Soyad ve
+			Kiralama Başlangıç Tarihi özellikleriyle listelenir.
+			- Seçilen Kiralamanın Olayları Başlığıyla listelenir.
+			- Olay seçilir ve gösterilir.
+			- Seçilen Olay silinir.
+			- Silme için onaylama gerekir.
+
+	- Aktif Kiralama Olay Güncelleme
+		Yapılan İş:
+			- Aktif Kiralamalar Taşıt için Plaka, Üye Müşteri için TCKN, Ad, Soyad ve
+			Kiralama Başlangıç Tarihi özellikleriyle listelenir.
+			- Seçilen Kiralamanın Olayları Başlığıyla listelenir.
+			- Seçilen Olay gösterilir.
+			- Yeni Açıklama ve Başlık girilir.
+			- Seçilen Olay güncellenir.
+			- Güncelleme için onaylama gerekir.
+
+	- Aktif Kiralama Olayları Listeleme
+			Yapılan İş:
+			- Aktif Kiralamalar Taşıt için Plaka, Üye Müşteri için TCKN, Ad, Soyad ve
+			Kiralama Başlangıç Tarihi özellikleriyle listelenir.
+			- Seçilen Naklin Olayları Başlığıyla listelenir.
+			- Seçilen Olay gösterilir.
+
+	- Kiralama Tamamlama
+		Yapılan İş:
+			- Aktif Kiralamalar Taşıt için Plaka, Üye Müşteri için TCKN, Ad, Soyad ve
+			Kiralama Başlangıç Tarihi özellikleriyle listelenir.
+			- Seçilen Kiralama tamamlanır.
+			- Fatura oluşturulur. Kendi Şubesine yapılan Kiralamalarda Taşıtın kendi
+			Şubesinde bulunmadığı zamana göre indirim yapılır. 0-1 ay arası 25%, 1-2 ay arası
+			50% ve 2-3 ay arası 75%.
+			- Tamamlama onaylanır.
+			- Kiralama tamamlandığında Fatura Tutarı Şube Mali Durumuna ve Taşıt Mali
+			durumuna Kiralama Ücreti Mali Geliri olarak kaydedilir.
+
+	- Tamamlanmış Kiralama Listeleme
+			Yapılan İş:
+			- Tamamlanmış Kiralamalar Taşıt için Plaka, Üye Müşteri için TCKN, Ad, Soyad ve
+			Kiralama Başlangıç Tarihi özellikleriyle listelenir.
+			- Seçilen Kiralama gösterilir.
+
+	- Tamamlanmış Kiralama Olayları Listeleme
+			Yapılan İş:
+			- Tamamlanmış Kiralamalar Taşıt için Plaka, Üye Müşteri için TCKN, Ad, Soyad ve
+			Kiralama Başlangıç Tarihi özellikleriyle listelenir.
+			- Seçilen Kiralamanın Olayları Başlığıyla listelenir.
+			- Seçilen Olay gösterilir.
+----------------------------------------------------------------------------------------------------
+İlişkili Varlıklar:
+	- Üye Müşteri
+	- Taşıt
+----------------------------------------------------------------------------------------------------

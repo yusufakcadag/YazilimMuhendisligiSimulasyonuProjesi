@@ -1,0 +1,157 @@
+----------------------------------------------------------------------------------------------------
+[FG] Taşıt Yönetimi İşi : Şube Yönetimi İşi
+----------------------------------------------------------------------------------------------------
+Erişir: Şube Müdürü
+----------------------------------------------------------------------------------------------------
+Fonksiyonlar:
+	- Taşıt Kaydetme
+		Yapılan İş:
+			- Özellikler boş bırakılmadan doldurulur.
+			- Taşıt kaydedilir.
+			- Kaydetme için onaylama gerekir.
+
+	- Taşıt Silme
+		Yapılan İş:
+			- Taşıtlar Plaka, Marka ve Model özelliğiyle listelenir.
+			- Seçilen Taşıt silinir.
+			- Silme için onaylama gerekir.
+
+	- Taşıt Güncelleme
+		Yapılan İş:
+			- Taşıtlar Plaka, Marka ve Model özelliğiyle listelenir.
+			- Taşıt seçilir.
+			- Yeni özellikler boş bırakılmadan doldurulur.
+			- Seçilen Taşıt güncellenir.
+			- Güncelleme için onaylama gerekir.
+
+	- Taşıtları Listeleme
+		Yapılan İş:
+			- Taşıtlar Plaka, Marka ve Model özelliğiyle listelenir.
+			- Seçilen Taşıt gösterilir.
+
+	- Taşıt Mali Durumu Gösterme
+		Yapılan İş:
+			- Aylık, üç (3) aylık, altı (6) aylık ya da yıllık periyot seçilir.
+			- Taşıtlar Plaka, Marka ve Model özelliğiyle listelenir.
+			- Seçilen Taşıtın Mali Durumu gösterilir.
+			- Net kar pozitifse yeşille, negatifse kırmızıyla gösterilir.
+
+	- Taşıt Sigorta Kaydetme
+		Yapılan İş:
+			- Taşıtlar Plaka, Marka ve Model özelliğiyle listelenir.
+			- Seçilen Taşıta Sigorta kaydedilir.
+			- Özellikler boş bırakılmadan doldurulur.
+			- Kaydetme için onaylama gerekir.
+			- Sigorta Ücreti Taşıt Mali Durumuna Sigorta Gideri olarak kaydedilir.
+
+	- Taşıt Sigorta Silme
+		Yapılan İş:
+			- Taşıtlar Plaka, Marka ve Model özelliğiyle listelenir.
+			- Seçilen Taşıtın Sigortaları Poliçe Numarasıyla listelenir.
+			- Seçilen Sigorta silinir.
+			- Silme için onaylama gerekir.
+
+	- Taşıt Sigorta Güncelleme
+		Yapılan İş:
+			- Taşıtlar Plaka, Marka ve Model özelliğiyle listelenir.
+			- Seçilen Taşıtın Sigortaları Poliçe Numarasıyla listelenir.
+			- Seçilen Sigorta gösterilir.
+			- Yeni özellikler boş bırakılmadan doldurulur.
+			- Seçilen Sigorta güncellenir.
+			- Güncelleme için onaylama gerekir.
+
+	- Taşıt Sigortalarını Listeleme
+		Yapılan İş:
+			- Taşıtlar Plaka, Marka ve Model özelliğiyle listelenir.
+			- Seçilen Taşıtın Sigortaları Poliçe Numarasıyla listelenir.
+			- Seçilen Sigorta gösterilir.
+
+	- Taşıt Bakım Kaydetme
+		Yapılan İş:
+			- Taşıtlar Plaka, Marka ve Model özelliğiyle listelenir.
+			- Seçilen Taşıta Bakım kaydedilir.
+			- Özellikler boş bırakılmadan doldurulur.
+			- Kaydetme için onaylama gerekir.
+			- Bakım Ücreti Taşıt Mali Durumuna Bakım Gideri olarak kaydedilir.
+
+	- Taşıt Bakım Silme
+		Yapılan İş:
+			- Taşıtlar Plaka, Marka ve Model özelliğiyle listelenir.
+			- Taşıtın Bakımları Başlığıyla listelenir.
+			- Seçilen Bakım silinir.
+			- Silme için onaylama gerekir.
+
+	- Taşıt Bakım Güncelleme
+		Yapılan İş:
+			- Taşıtlar Plaka, Marka ve Model özelliğiyle listelenir.
+			- Seçilen Taşıtın Bakımları Başlığıyla listelenir.
+			- Seçilen Bakım gösterilir.
+			- Yeni özellikler boş bırakılmadan doldurulur.
+			- Seçilen Bakım güncellenir.
+			- Güncelleme için onaylama gerekir.
+
+	- Taşıt Bakımlarını Listeleme
+		Yapılan İş:
+			- Taşıtlar Plaka, Marka ve Model özelliğiyle listelenir.
+			- Taşıtın Bakımları Başlığıyla listelenir.
+			- Seçilen Bakım gösterilir.
+
+	- Taşıt Gövde Durumu Güncelleme
+		Yapılan İş:
+			- Taşıtlar Plaka, Marka ve Model özelliğiyle listelenir.
+			- Seçilen Taşıtın Gövde Durumu gösterilir.
+			- Seçilen gövde parçasının durumu işaretlenir.
+			- Gövde Durumu güncellenir.
+			- Güncelleme için onaylama gerekir.
+
+	- Taşıt Gövde Durumu Gösterme
+		Yapılan İş:
+			- Taşıtlar Plaka, Marka ve Model özelliğiyle listelenir.
+			- Seçilen Yönetimsel Taşıtın Gövde Durumu gösterilir.
+
+	- Taşıt Olay Kaydetme
+		Yapılan İş:
+			- Taşıtlar Plaka, Marka ve Model özelliğiyle listelenir.
+			- Seçilen Taşıta Olay kaydedilir.
+			- Özellikler boş bırakılmadan doldurulur.
+			- Kaydetme için onaylama gerekir.
+
+	- Taşıt Olay Silme
+		Yapılan İş:
+			- Taşıtlar Plaka, Marka ve Model özelliğiyle listelenir.
+			- Seçilen Taşıtın Olayları Başlığıyla listelenir.
+			- Olay seçilir ve gösterilir.
+			- Seçilen Olay silinir.
+			- Silme için onaylama gerekir.
+
+	- Taşıt Olay Güncelleme
+		Yapılan İş:
+			- Taşıtlar Plaka, Marka ve Model özelliğiyle listelenir.
+			- Seçilen Taşıtın Olayları Başlığıyla listelenir.
+			- Seçilen Olay gösterilir.
+			- Yeni Açıklama ve Başlık girilir.
+			- Seçilen Olay güncellenir.
+			- Güncelleme için onaylama gerekir.
+
+	- Taşıt Olayları Listeleme
+		Yapılan İş:
+			- Taşıtlar Plaka, Marka ve Model özelliğiyle listelenir.
+			- Seçilen Taşıtın Olayları Başlığıyla listelenir.
+			- Seçilen Olay gösterilir.
+
+	- Şubeye Ait Olmayan Taşıtları Listeleme
+		Yapılan İş:
+			- Şubeye ait olmayan Taşıtlar Plaka, Marka ve Model özelliğiyle listelenir.
+			- Seçilen Taşıt gösterilir.
+
+	- Taşıt Kiralama Geçmişi Listeleme
+		Yapılan İş:
+			- Taşıtlar Plaka, Marka ve Model özelliğiyle listelenir.
+			- Seçilen Taşıtın Kiralama Geçmişi listelenir.
+			- Kiralama Geçmişi Taşıt için Plaka, Üye Müşteri için TCKN, Ad, Soyad ve Kiralama
+			Tarihi özellikleriyle listelenir.
+			- Seçilen Kiralama Geçmişi gösterilir.
+----------------------------------------------------------------------------------------------------
+İlişkili Varlıklar:
+	- Taşıt
+----------------------------------------------------------------------------------------------------

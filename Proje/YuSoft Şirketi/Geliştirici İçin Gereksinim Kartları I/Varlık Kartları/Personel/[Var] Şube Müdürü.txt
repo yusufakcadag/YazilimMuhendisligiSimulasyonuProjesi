@@ -1,0 +1,31 @@
+----------------------------------------------------------------------------------------------------
+[Var] Şube Müdürü : Personel
+----------------------------------------------------------------------------------------------------
+Özellikler:
+	- TCKN 0* 1*
+	- Şube ID 1* 2*
+	- Sigorta Numarası 1*
+	- Ad 1*
+	- Soyad 1*
+	- Doğum Tarihi 1*
+	- İşe Giriş Tarihi 1*
+	- Ev Telefonu Numarası 1*
+	- Cep Telefonu Numarası 1*
+	- E-Posta Adresi 1*
+	- Ev Adresi 1*
+	- Maaş 1*
+	- Şifre 3*
+	- Olaylar 1*
+----------------------------------------------------------------------------------------------------
+0*: TCKN benzersiz bir ID'dir.
+
+1*: Personelden gelen özellikler.
+
+2*: Personelin bulunduğu Şubenin ID'si.
+
+3*: Şifre Şube Müdürü kaydetme sırasında oluşturulur ve Şube Müdürünün E-Posta Adresine gönderilir.
+Ardından değiştirilebilir.
+----------------------------------------------------------------------------------------------------
+İlişkili Varlıklar:
+	- Olay
+----------------------------------------------------------------------------------------------------
