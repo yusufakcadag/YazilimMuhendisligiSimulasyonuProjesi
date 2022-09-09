@@ -6,7 +6,7 @@
 	- Sahip ID 1*
 	- Poliçe Numarası
 	- Sigorta Şirketi
-	- Ücreti
+	- Ücret
 ----------------------------------------------------------------------------------------------------
 0*: ID şu şekilde oluşturulur: Sigortanın sahibinin türüne 0'dan başlayarak numara atanır.
 Bu numaraya sahibin ID'si eklenir. Örnek: Taşıt için 0, Yönetimsel Taşıt için 1. Taşıtın ID'si

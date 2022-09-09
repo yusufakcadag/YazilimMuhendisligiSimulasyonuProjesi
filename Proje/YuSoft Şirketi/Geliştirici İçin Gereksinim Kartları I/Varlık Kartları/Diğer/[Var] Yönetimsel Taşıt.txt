@@ -9,8 +9,8 @@
 	- Marka
 	- Model
 	- Yıl
-	- Yakıt Türü
-	- Vites Türü
+	- Yakıt Türü 2*
+	- Vites Türü 3*
 	- Kilometre
 	- Gövde Durumu
 	- Bakımlar
@@ -20,6 +20,10 @@
 0*: Plaka benzersiz bir ID'dir.
 
 1*: Bulunduğu Şubenin ID'si.
+
+2*: Bu veriler Benzinli ve Dizel olabilir. O yüzden "boolean" dizisi şeklinde tutulur.
+
+3*: Bu veriler Manuel, Otomatik ve Yarıotomatik olabilir. O yüzden "boolean" dizisi şeklinde tutulur.
 ----------------------------------------------------------------------------------------------------
 İlişkili Varlıklar:
 	- Sigorta
