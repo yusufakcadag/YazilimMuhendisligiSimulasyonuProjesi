@@ -14,7 +14,7 @@
 
 1*: Yönetimden gelen özellikler.
 
-2*: Şirket Müdürüdür ya da Şirket Avukatıdır.
+2*: Şirket Müdürüdür ya da Şirket Avukatıdır. Boolean dizisi şeklinde tutulur.
 ----------------------------------------------------------------------------------------------------
 İlişkili Varlıklar:
 	-
