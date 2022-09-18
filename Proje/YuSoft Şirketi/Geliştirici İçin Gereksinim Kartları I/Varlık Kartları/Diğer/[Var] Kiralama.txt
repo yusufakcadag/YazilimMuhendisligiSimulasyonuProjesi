@@ -10,7 +10,7 @@
 	- Teslim Şubesi ID
 	- Kiralama Başlangıç Tarihi
 	- Kiralama Bitiş Tarihi
-	- Kiralama Planı
+	- Kiralama Planı 2*
 	- Aşım Günü
 	- Olaylar
 	- Fatura
@@ -19,6 +19,11 @@
 Örneğin: ID 34ABC202206282022 ise Taşıtın ID'si 34ABC2022, Kiralama başlangıç tarihi 06282022'dir.
 
 1* Kiralama tamamlanmamışsa 1'dir tamamlanmışsa 0'dır.
+
+2*: Bu veri Günlük, Aylık ya da Yıllık olabilir. O yüzden "boolean" dizisi şeklinde tutulur.
+Günlük günlük ücret Taşıt Günlük Ücreti * 1’dir.
+Aylık günlük ücret Taşıt Günlük Ücreti * 0.85’dir.
+Yıllık günlük ücret Taşıt Günlük Ücreti * 0.65’dir.
 ----------------------------------------------------------------------------------------------------
 İlişkili Varlıklar:
 	- Kiralama Planı
