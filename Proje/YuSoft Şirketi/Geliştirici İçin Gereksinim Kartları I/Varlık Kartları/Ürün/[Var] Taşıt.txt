@@ -10,8 +10,8 @@
 	- Marka
 	- Model
 	- Yıl
-	- Yakıt Türü
-	- Vites Türü
+	- Yakıt Türü 3*
+	- Vites Türü 4*
 	- Kilometre
 	- Gövde Durumu
 	- Bakımlar
@@ -28,6 +28,11 @@
 1*: Ait Olduğu Şubenin ID'si.
 
 2*: Bulunduğu Şubenin ID'si.
+
+3*: Bu veriler Benzinli ve Dizel olabilir. "integer" şeklinde tutulur. 0 Benzinli ve 1 Dizeldir.
+
+4*: Bu veriler Manuel, Otomatik ve Yarıotomatik olabilir. "integer" şeklinde tutulur. 0 Manuel,
+1 Otomatik ve 2 Yarıotomatiktir.
 ----------------------------------------------------------------------------------------------------
 İlişkili Varlıklar:
 	- Sigorta

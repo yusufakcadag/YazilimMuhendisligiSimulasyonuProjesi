@@ -7,9 +7,7 @@
 	- Başlık
 	- Açıklama
 ----------------------------------------------------------------------------------------------------
-0*: ID şu şekilde oluşturulur: Olayın sahibinin türüne 0'dan başlayarak numara atanır.
-Bu numaraya sahibin ID'si eklenir. Örnek: Üye Müşteri için 0, Şube müdürü için 1. Üye Müşterinin ID'si
-12345678901 ise Olayın ID'si 012345678901'dir.
+0*: ID şu şekilde oluşturulur: 0'dan başlar. Oluşturuldukça artar.
 
 1*: Olay sahibinin ID'si.
 ----------------------------------------------------------------------------------------------------
