@@ -3,6 +3,7 @@
 ----------------------------------------------------------------------------------------------------
 Özellikler:
 	- TCKN 0*
+	- Şube ID 1*
 	- Ad
 	- Soyad
 	- Doğum Tarihi
@@ -12,11 +13,13 @@
 	- Ev Adresi
 	- Olaylar
 	- Kiralamalar
-	- Kara Liste 1*
+	- Kara Liste 2*
 ----------------------------------------------------------------------------------------------------
 0*: TCKN benzersiz bir ID'dir.
 
-1*: Üye Müşteri Kara Listedeyse 1'dir, değilse 0'dır.
+1*: Üye Müşterinin bulunduğu Şubenin ID'si.
+
+2*: Üye Müşteri Kara Listedeyse 1'dir, değilse 0'dır.
 ----------------------------------------------------------------------------------------------------
 İlişkili Varlıklar:
 	- Olay
