@@ -87,7 +87,7 @@ Fonksiyonlar:
 	- Şoför Olay Silme
 		Yapılan İş:
 			- Şoförler TCKN, Ad ve Soyad özellikleriyle listelenir.
-			- Seçilen Soförün Olayları Başlığıyla listelenir.
+			- Seçilen Şoförün Olayları Başlığıyla listelenir.
 			- Olay seçilir ve gösterilir.
 			- Seçilen Olay silinir.
 			- Silme için onaylama gerekir.
@@ -95,7 +95,7 @@ Fonksiyonlar:
 	- Şoför Olay Güncelleme
 		Yapılan İş:
 			- Şoförler TCKN, Ad ve Soyad özellikleriyle listelenir.
-			- Seçilen Soförün Olayları Başlığıyla listelenir.
+			- Seçilen Şoförün Olayları Başlığıyla listelenir.
 			- Seçilen Olay gösterilir.
 			- Yeni Açıklama ve Başlık girilir.
 			- Seçilen Olay güncellenir.
@@ -104,7 +104,7 @@ Fonksiyonlar:
 	- Şoför Olayları Listeleme
 			Yapılan İş:
 			- Şoförler TCKN, Ad ve Soyad özellikleriyle listelenir.
-			- Seçilen Soförün Olayları Başlığıyla listelenir.
+			- Seçilen Şoförün Olayları Başlığıyla listelenir.
 			- Seçilen Olay gösterilir.
 
 	- Yönetimsel Taşıt Kaydetme
@@ -211,6 +211,36 @@ Fonksiyonlar:
 		Yapılan İş:
 			- Yönetimsel Taşıtlar Plaka, Marka ve Model özelliğiyle listelenir.
 			- Seçilen Yönetimsel Taşıtın Gövde Durumu gösterilir.
+
+	- Yönetimsel Taşıt Olay Kaydetme
+		Yapılan İş:
+			- Yönetimsel Taşıtlar Plaka, Marka ve Model özelliğiyle listelenir.
+			- Seçilen Yönetimsel Taşıta Olay kaydedilir.
+			- Özellikler boş bırakılmadan doldurulur.
+			- Kaydetme için onaylama gerekir.
+
+	-  Yönetimsel Taşıt Olay Silme
+		Yapılan İş:
+			- Yönetimsel Taşıtlar Plaka, Marka ve Model özelliğiyle listelenir.
+			- Seçilen Yönetimsel Taşıtın Olayları Başlığıyla listelenir.
+			- Olay seçilir ve gösterilir.
+			- Seçilen Olay silinir.
+			- Silme için onaylama gerekir.
+
+	- Yönetimsel Taşıt Olay Güncelleme
+		Yapılan İş:
+			- Yönetimsel Taşıtlar Plaka, Marka ve Model özelliğiyle listelenir.
+			- Seçilen Yönetimsel Taşıtın Olayları Başlığıyla listelenir.
+			- Seçilen Olay gösterilir.
+			- Yeni Açıklama ve Başlık girilir.
+			- Seçilen Olay güncellenir.
+			- Güncelleme için onaylama gerekir.
+
+	- Yönetimsel Taşıt Olayları Listeleme
+			Yapılan İş:
+			- Yönetimsel Taşıtlar Plaka, Marka ve Model özelliğiyle listelenir.
+			- Seçilen Yönetimsel Taşıtın Olayları Başlığıyla listelenir.
+			- Seçilen Olay gösterilir.
 
 	- Şube Kaydetme
 		Yapılan İş:
