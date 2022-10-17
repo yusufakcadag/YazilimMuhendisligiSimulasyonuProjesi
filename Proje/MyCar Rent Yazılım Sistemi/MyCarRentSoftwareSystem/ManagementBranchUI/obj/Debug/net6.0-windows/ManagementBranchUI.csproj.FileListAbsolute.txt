@@ -1,0 +1,17 @@
+C:\Users\akcad\Desktop\GitHub\Yazılım Mühendisliği Simülasyonu Projesi\Proje\MyCar Rent Yazılım Sistemi\MyCarRentSoftwareSystem\ManagementBranchUI\obj\Debug\net6.0-windows\ManagementBranchUI.csproj.AssemblyReference.cache
+C:\Users\akcad\Desktop\GitHub\Yazılım Mühendisliği Simülasyonu Projesi\Proje\MyCar Rent Yazılım Sistemi\MyCarRentSoftwareSystem\ManagementBranchUI\obj\Debug\net6.0-windows\ManagementBranchUI.FormCreateManagementBranch.resources
+C:\Users\akcad\Desktop\GitHub\Yazılım Mühendisliği Simülasyonu Projesi\Proje\MyCar Rent Yazılım Sistemi\MyCarRentSoftwareSystem\ManagementBranchUI\obj\Debug\net6.0-windows\ManagementBranchUI.csproj.GenerateResource.cache
+C:\Users\akcad\Desktop\GitHub\Yazılım Mühendisliği Simülasyonu Projesi\Proje\MyCar Rent Yazılım Sistemi\MyCarRentSoftwareSystem\ManagementBranchUI\obj\Debug\net6.0-windows\ManagementBranchUI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\akcad\Desktop\GitHub\Yazılım Mühendisliği Simülasyonu Projesi\Proje\MyCar Rent Yazılım Sistemi\MyCarRentSoftwareSystem\ManagementBranchUI\obj\Debug\net6.0-windows\ManagementBranchUI.AssemblyInfoInputs.cache
+C:\Users\akcad\Desktop\GitHub\Yazılım Mühendisliği Simülasyonu Projesi\Proje\MyCar Rent Yazılım Sistemi\MyCarRentSoftwareSystem\ManagementBranchUI\obj\Debug\net6.0-windows\ManagementBranchUI.AssemblyInfo.cs
+C:\Users\akcad\Desktop\GitHub\Yazılım Mühendisliği Simülasyonu Projesi\Proje\MyCar Rent Yazılım Sistemi\MyCarRentSoftwareSystem\ManagementBranchUI\obj\Debug\net6.0-windows\ManagementBranchUI.csproj.CoreCompileInputs.cache
+C:\Users\akcad\Desktop\GitHub\Yazılım Mühendisliği Simülasyonu Projesi\Proje\MyCar Rent Yazılım Sistemi\MyCarRentSoftwareSystem\ManagementBranchUI\bin\Debug\net6.0-windows\ManagementBranchUI.exe
+C:\Users\akcad\Desktop\GitHub\Yazılım Mühendisliği Simülasyonu Projesi\Proje\MyCar Rent Yazılım Sistemi\MyCarRentSoftwareSystem\ManagementBranchUI\bin\Debug\net6.0-windows\ManagementBranchUI.deps.json
+C:\Users\akcad\Desktop\GitHub\Yazılım Mühendisliği Simülasyonu Projesi\Proje\MyCar Rent Yazılım Sistemi\MyCarRentSoftwareSystem\ManagementBranchUI\bin\Debug\net6.0-windows\ManagementBranchUI.runtimeconfig.json
+C:\Users\akcad\Desktop\GitHub\Yazılım Mühendisliği Simülasyonu Projesi\Proje\MyCar Rent Yazılım Sistemi\MyCarRentSoftwareSystem\ManagementBranchUI\bin\Debug\net6.0-windows\ManagementBranchUI.dll
+C:\Users\akcad\Desktop\GitHub\Yazılım Mühendisliği Simülasyonu Projesi\Proje\MyCar Rent Yazılım Sistemi\MyCarRentSoftwareSystem\ManagementBranchUI\bin\Debug\net6.0-windows\ManagementBranchUI.pdb
+C:\Users\akcad\Desktop\GitHub\Yazılım Mühendisliği Simülasyonu Projesi\Proje\MyCar Rent Yazılım Sistemi\MyCarRentSoftwareSystem\ManagementBranchUI\obj\Debug\net6.0-windows\ManagementBranchUI.dll
+C:\Users\akcad\Desktop\GitHub\Yazılım Mühendisliği Simülasyonu Projesi\Proje\MyCar Rent Yazılım Sistemi\MyCarRentSoftwareSystem\ManagementBranchUI\obj\Debug\net6.0-windows\refint\ManagementBranchUI.dll
+C:\Users\akcad\Desktop\GitHub\Yazılım Mühendisliği Simülasyonu Projesi\Proje\MyCar Rent Yazılım Sistemi\MyCarRentSoftwareSystem\ManagementBranchUI\obj\Debug\net6.0-windows\ManagementBranchUI.pdb
+C:\Users\akcad\Desktop\GitHub\Yazılım Mühendisliği Simülasyonu Projesi\Proje\MyCar Rent Yazılım Sistemi\MyCarRentSoftwareSystem\ManagementBranchUI\obj\Debug\net6.0-windows\ManagementBranchUI.genruntimeconfig.cache
+C:\Users\akcad\Desktop\GitHub\Yazılım Mühendisliği Simülasyonu Projesi\Proje\MyCar Rent Yazılım Sistemi\MyCarRentSoftwareSystem\ManagementBranchUI\obj\Debug\net6.0-windows\ref\ManagementBranchUI.dll

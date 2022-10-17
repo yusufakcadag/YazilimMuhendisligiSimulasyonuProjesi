@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32929.385
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DesktopUI", "DesktopUI", "{DDAAD845-7175-4299-8AF7-168D70C947C4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WebUI", "WebUI", "{743B1F22-0760-4508-B86F-6F033E73C53C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BusinessLayer", "BusinessLayer", "{1BCAEDAC-4D5C-4FD6-BAB0-931119911DF5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DataAccessLayer", "DataAccessLayer", "{C468DE8E-B4D7-40BF-811E-EB4FDFD2CCB5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ManagementBranchUI", "ManagementBranchUI\ManagementBranchUI.csproj", "{3A16F3BE-8334-4C2B-BED6-423BB3B80533}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Entities", "Entities", "{D2D0BDB4-B77F-4CA8-BBFA-6FF8F1E50F56}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3A16F3BE-8334-4C2B-BED6-423BB3B80533}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A16F3BE-8334-4C2B-BED6-423BB3B80533}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A16F3BE-8334-4C2B-BED6-423BB3B80533}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A16F3BE-8334-4C2B-BED6-423BB3B80533}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3A16F3BE-8334-4C2B-BED6-423BB3B80533} = {DDAAD845-7175-4299-8AF7-168D70C947C4}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1231179B-0B94-4B1C-8486-3A0A6150E13F}
+	EndGlobalSection
+EndGlobal
