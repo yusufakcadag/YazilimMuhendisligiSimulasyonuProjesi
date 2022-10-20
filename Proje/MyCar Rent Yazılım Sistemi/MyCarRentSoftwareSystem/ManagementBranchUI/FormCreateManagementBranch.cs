@@ -61,5 +61,7 @@ namespace ManagementBranchUI
         }
 
         #endregion
+
+        //todo Şirket Yönetimi ekleme ekran tasarımı yapılıp veriler elde edilecek.
     }
 }

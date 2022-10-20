@@ -38,23 +38,23 @@
             this.lblManagementBranchName = new System.Windows.Forms.Label();
             this.tabController = new System.Windows.Forms.TabControl();
             this.tabCompanyManagers = new System.Windows.Forms.TabPage();
-            this.tbxCompanyLawyerSurname = new System.Windows.Forms.TextBox();
-            this.lblCompanyLawyerSurname = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.tbxCompanyManagerSurname = new System.Windows.Forms.TextBox();
-            this.lblCompanyManagerSurname = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
-            this.tbxCompanyLawyerName = new System.Windows.Forms.TextBox();
-            this.lblCompanyLawyerName = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.tbxCompanyManagerName = new System.Windows.Forms.TextBox();
-            this.lblCompanyManagerName = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
-            this.tbxCompanyLawyerTCIN = new System.Windows.Forms.TextBox();
-            this.lblCompanyLawyerTCIN = new System.Windows.Forms.Label();
+            this.tbxManagementEMail = new System.Windows.Forms.TextBox();
+            this.lblManagementEMail = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.rbtnLawyer = new System.Windows.Forms.RadioButton();
+            this.rbtnManager = new System.Windows.Forms.RadioButton();
             this.label4 = new System.Windows.Forms.Label();
-            this.tbxCompanyManagerTCIN = new System.Windows.Forms.TextBox();
-            this.lblCompanyManagerTCIN = new System.Windows.Forms.Label();
+            this.tbxManagementMobilePhone = new System.Windows.Forms.TextBox();
+            this.lblManagementMobilePhone = new System.Windows.Forms.Label();
+            this.label12 = new System.Windows.Forms.Label();
+            this.tbxManagementSurname = new System.Windows.Forms.TextBox();
+            this.lblManagementSurname = new System.Windows.Forms.Label();
+            this.label10 = new System.Windows.Forms.Label();
+            this.tbxManagementName = new System.Windows.Forms.TextBox();
+            this.lblManagementName = new System.Windows.Forms.Label();
+            this.label8 = new System.Windows.Forms.Label();
+            this.tbxManagementTCIN = new System.Windows.Forms.TextBox();
+            this.lblManagementTCIN = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.tabBranchName.SuspendLayout();
             this.tabController.SuspendLayout();
@@ -160,198 +160,205 @@
             // tabCompanyManagers
             // 
             this.tabCompanyManagers.BackColor = System.Drawing.Color.Silver;
-            this.tabCompanyManagers.Controls.Add(this.tbxCompanyLawyerSurname);
-            this.tabCompanyManagers.Controls.Add(this.lblCompanyLawyerSurname);
-            this.tabCompanyManagers.Controls.Add(this.label7);
-            this.tabCompanyManagers.Controls.Add(this.tbxCompanyManagerSurname);
-            this.tabCompanyManagers.Controls.Add(this.lblCompanyManagerSurname);
-            this.tabCompanyManagers.Controls.Add(this.label10);
-            this.tabCompanyManagers.Controls.Add(this.tbxCompanyLawyerName);
-            this.tabCompanyManagers.Controls.Add(this.lblCompanyLawyerName);
-            this.tabCompanyManagers.Controls.Add(this.label6);
-            this.tabCompanyManagers.Controls.Add(this.tbxCompanyManagerName);
-            this.tabCompanyManagers.Controls.Add(this.lblCompanyManagerName);
-            this.tabCompanyManagers.Controls.Add(this.label8);
-            this.tabCompanyManagers.Controls.Add(this.tbxCompanyLawyerTCIN);
-            this.tabCompanyManagers.Controls.Add(this.lblCompanyLawyerTCIN);
+            this.tabCompanyManagers.Controls.Add(this.tbxManagementEMail);
+            this.tabCompanyManagers.Controls.Add(this.lblManagementEMail);
+            this.tabCompanyManagers.Controls.Add(this.label5);
+            this.tabCompanyManagers.Controls.Add(this.rbtnLawyer);
+            this.tabCompanyManagers.Controls.Add(this.rbtnManager);
             this.tabCompanyManagers.Controls.Add(this.label4);
-            this.tabCompanyManagers.Controls.Add(this.tbxCompanyManagerTCIN);
-            this.tabCompanyManagers.Controls.Add(this.lblCompanyManagerTCIN);
+            this.tabCompanyManagers.Controls.Add(this.tbxManagementMobilePhone);
+            this.tabCompanyManagers.Controls.Add(this.lblManagementMobilePhone);
+            this.tabCompanyManagers.Controls.Add(this.label12);
+            this.tabCompanyManagers.Controls.Add(this.tbxManagementSurname);
+            this.tabCompanyManagers.Controls.Add(this.lblManagementSurname);
+            this.tabCompanyManagers.Controls.Add(this.label10);
+            this.tabCompanyManagers.Controls.Add(this.tbxManagementName);
+            this.tabCompanyManagers.Controls.Add(this.lblManagementName);
+            this.tabCompanyManagers.Controls.Add(this.label8);
+            this.tabCompanyManagers.Controls.Add(this.tbxManagementTCIN);
+            this.tabCompanyManagers.Controls.Add(this.lblManagementTCIN);
             this.tabCompanyManagers.Controls.Add(this.label2);
-            this.tabCompanyManagers.Location = new System.Drawing.Point(4, 28);
+            this.tabCompanyManagers.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.tabCompanyManagers.Location = new System.Drawing.Point(4, 24);
             this.tabCompanyManagers.Name = "tabCompanyManagers";
             this.tabCompanyManagers.Padding = new System.Windows.Forms.Padding(3);
-            this.tabCompanyManagers.Size = new System.Drawing.Size(1152, 905);
+            this.tabCompanyManagers.Size = new System.Drawing.Size(1152, 909);
             this.tabCompanyManagers.TabIndex = 1;
-            this.tabCompanyManagers.Text = "Şirket Yöneticileri";
+            this.tabCompanyManagers.Text = "Şirket Yönetimi";
             // 
-            // tbxCompanyLawyerSurname
+            // tbxManagementEMail
             // 
-            this.tbxCompanyLawyerSurname.ForeColor = System.Drawing.Color.Green;
-            this.tbxCompanyLawyerSurname.Location = new System.Drawing.Point(20, 575);
-            this.tbxCompanyLawyerSurname.MaxLength = 15;
-            this.tbxCompanyLawyerSurname.Name = "tbxCompanyLawyerSurname";
-            this.tbxCompanyLawyerSurname.Size = new System.Drawing.Size(299, 26);
-            this.tbxCompanyLawyerSurname.TabIndex = 18;
+            this.tbxManagementEMail.ForeColor = System.Drawing.Color.Green;
+            this.tbxManagementEMail.Location = new System.Drawing.Point(20, 575);
+            this.tbxManagementEMail.MaxLength = 40;
+            this.tbxManagementEMail.Name = "tbxManagementEMail";
+            this.tbxManagementEMail.Size = new System.Drawing.Size(244, 26);
+            this.tbxManagementEMail.TabIndex = 27;
             // 
-            // lblCompanyLawyerSurname
+            // lblManagementEMail
             // 
-            this.lblCompanyLawyerSurname.AutoSize = true;
-            this.lblCompanyLawyerSurname.ForeColor = System.Drawing.Color.Green;
-            this.lblCompanyLawyerSurname.Location = new System.Drawing.Point(201, 525);
-            this.lblCompanyLawyerSurname.Name = "lblCompanyLawyerSurname";
-            this.lblCompanyLawyerSurname.Size = new System.Drawing.Size(118, 19);
-            this.lblCompanyLawyerSurname.TabIndex = 17;
-            this.lblCompanyLawyerSurname.Text = "Avukat Soyadı";
+            this.lblManagementEMail.AutoSize = true;
+            this.lblManagementEMail.ForeColor = System.Drawing.Color.Green;
+            this.lblManagementEMail.Location = new System.Drawing.Point(101, 525);
+            this.lblManagementEMail.Name = "lblManagementEMail";
+            this.lblManagementEMail.Size = new System.Drawing.Size(69, 19);
+            this.lblManagementEMail.TabIndex = 26;
+            this.lblManagementEMail.Text = "E-Posta";
             // 
-            // label7
+            // label5
             // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(20, 525);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(175, 19);
-            this.label7.TabIndex = 16;
-            this.label7.Text = "Şirket Avukatı Soyadı:";
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(20, 525);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(75, 19);
+            this.label5.TabIndex = 25;
+            this.label5.Text = "E-Posta:";
             // 
-            // tbxCompanyManagerSurname
+            // rbtnLawyer
             // 
-            this.tbxCompanyManagerSurname.ForeColor = System.Drawing.Color.Green;
-            this.tbxCompanyManagerSurname.Location = new System.Drawing.Point(20, 475);
-            this.tbxCompanyManagerSurname.MaxLength = 15;
-            this.tbxCompanyManagerSurname.Name = "tbxCompanyManagerSurname";
-            this.tbxCompanyManagerSurname.Size = new System.Drawing.Size(300, 26);
-            this.tbxCompanyManagerSurname.TabIndex = 15;
+            this.rbtnLawyer.AutoSize = true;
+            this.rbtnLawyer.ForeColor = System.Drawing.Color.Blue;
+            this.rbtnLawyer.Location = new System.Drawing.Point(199, 75);
+            this.rbtnLawyer.Name = "rbtnLawyer";
+            this.rbtnLawyer.Size = new System.Drawing.Size(130, 23);
+            this.rbtnLawyer.TabIndex = 24;
+            this.rbtnLawyer.TabStop = true;
+            this.rbtnLawyer.Text = "Şirket Avukatı";
+            this.rbtnLawyer.UseVisualStyleBackColor = true;
             // 
-            // lblCompanyManagerSurname
+            // rbtnManager
             // 
-            this.lblCompanyManagerSurname.AutoSize = true;
-            this.lblCompanyManagerSurname.ForeColor = System.Drawing.Color.Green;
-            this.lblCompanyManagerSurname.Location = new System.Drawing.Point(205, 425);
-            this.lblCompanyManagerSurname.Name = "lblCompanyManagerSurname";
-            this.lblCompanyManagerSurname.Size = new System.Drawing.Size(115, 19);
-            this.lblCompanyManagerSurname.TabIndex = 14;
-            this.lblCompanyManagerSurname.Text = "Müdür Soyadı";
+            this.rbtnManager.AutoSize = true;
+            this.rbtnManager.ForeColor = System.Drawing.Color.Blue;
+            this.rbtnManager.Location = new System.Drawing.Point(20, 75);
+            this.rbtnManager.Name = "rbtnManager";
+            this.rbtnManager.Size = new System.Drawing.Size(134, 23);
+            this.rbtnManager.TabIndex = 23;
+            this.rbtnManager.TabStop = true;
+            this.rbtnManager.Text = "Şirket Müdürü";
+            this.rbtnManager.UseVisualStyleBackColor = true;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.ForeColor = System.Drawing.Color.Blue;
+            this.label4.Location = new System.Drawing.Point(20, 25);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(306, 19);
+            this.label4.TabIndex = 22;
+            this.label4.Text = "Eklemek İstediğiniz Pozisyonu Seçiniz!\r\n";
+            // 
+            // tbxManagementMobilePhone
+            // 
+            this.tbxManagementMobilePhone.ForeColor = System.Drawing.Color.Green;
+            this.tbxManagementMobilePhone.Location = new System.Drawing.Point(20, 475);
+            this.tbxManagementMobilePhone.MaxLength = 11;
+            this.tbxManagementMobilePhone.Name = "tbxManagementMobilePhone";
+            this.tbxManagementMobilePhone.Size = new System.Drawing.Size(244, 26);
+            this.tbxManagementMobilePhone.TabIndex = 21;
+            // 
+            // lblManagementMobilePhone
+            // 
+            this.lblManagementMobilePhone.AutoSize = true;
+            this.lblManagementMobilePhone.ForeColor = System.Drawing.Color.Green;
+            this.lblManagementMobilePhone.Location = new System.Drawing.Point(142, 425);
+            this.lblManagementMobilePhone.Name = "lblManagementMobilePhone";
+            this.lblManagementMobilePhone.Size = new System.Drawing.Size(110, 19);
+            this.lblManagementMobilePhone.TabIndex = 20;
+            this.lblManagementMobilePhone.Text = "Cep Telefonu";
+            // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.Location = new System.Drawing.Point(20, 425);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(116, 19);
+            this.label12.TabIndex = 19;
+            this.label12.Text = "Cep Telefonu:";
+            // 
+            // tbxManagementSurname
+            // 
+            this.tbxManagementSurname.ForeColor = System.Drawing.Color.Green;
+            this.tbxManagementSurname.Location = new System.Drawing.Point(20, 375);
+            this.tbxManagementSurname.MaxLength = 15;
+            this.tbxManagementSurname.Name = "tbxManagementSurname";
+            this.tbxManagementSurname.Size = new System.Drawing.Size(244, 26);
+            this.tbxManagementSurname.TabIndex = 15;
+            // 
+            // lblManagementSurname
+            // 
+            this.lblManagementSurname.AutoSize = true;
+            this.lblManagementSurname.ForeColor = System.Drawing.Color.Green;
+            this.lblManagementSurname.Location = new System.Drawing.Point(94, 325);
+            this.lblManagementSurname.Name = "lblManagementSurname";
+            this.lblManagementSurname.Size = new System.Drawing.Size(58, 19);
+            this.lblManagementSurname.TabIndex = 14;
+            this.lblManagementSurname.Text = "Soyad";
             // 
             // label10
             // 
             this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(20, 425);
+            this.label10.Location = new System.Drawing.Point(20, 325);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(179, 19);
+            this.label10.Size = new System.Drawing.Size(68, 19);
             this.label10.TabIndex = 13;
-            this.label10.Text = "Şirket Müdürü Soyadı:";
+            this.label10.Text = "Soyadı:";
             // 
-            // tbxCompanyLawyerName
+            // tbxManagementName
             // 
-            this.tbxCompanyLawyerName.ForeColor = System.Drawing.Color.Green;
-            this.tbxCompanyLawyerName.Location = new System.Drawing.Point(20, 375);
-            this.tbxCompanyLawyerName.MaxLength = 25;
-            this.tbxCompanyLawyerName.Name = "tbxCompanyLawyerName";
-            this.tbxCompanyLawyerName.Size = new System.Drawing.Size(242, 26);
-            this.tbxCompanyLawyerName.TabIndex = 12;
+            this.tbxManagementName.ForeColor = System.Drawing.Color.Green;
+            this.tbxManagementName.Location = new System.Drawing.Point(20, 275);
+            this.tbxManagementName.MaxLength = 25;
+            this.tbxManagementName.Name = "tbxManagementName";
+            this.tbxManagementName.Size = new System.Drawing.Size(244, 26);
+            this.tbxManagementName.TabIndex = 9;
             // 
-            // lblCompanyLawyerName
+            // lblManagementName
             // 
-            this.lblCompanyLawyerName.AutoSize = true;
-            this.lblCompanyLawyerName.ForeColor = System.Drawing.Color.Green;
-            this.lblCompanyLawyerName.Location = new System.Drawing.Point(172, 325);
-            this.lblCompanyLawyerName.Name = "lblCompanyLawyerName";
-            this.lblCompanyLawyerName.Size = new System.Drawing.Size(89, 19);
-            this.lblCompanyLawyerName.TabIndex = 11;
-            this.lblCompanyLawyerName.Text = "Avukat Adı";
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(20, 325);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(146, 19);
-            this.label6.TabIndex = 10;
-            this.label6.Text = "Şirket Avukatı Adı:";
-            // 
-            // tbxCompanyManagerName
-            // 
-            this.tbxCompanyManagerName.ForeColor = System.Drawing.Color.Green;
-            this.tbxCompanyManagerName.Location = new System.Drawing.Point(20, 275);
-            this.tbxCompanyManagerName.MaxLength = 25;
-            this.tbxCompanyManagerName.Name = "tbxCompanyManagerName";
-            this.tbxCompanyManagerName.Size = new System.Drawing.Size(242, 26);
-            this.tbxCompanyManagerName.TabIndex = 9;
-            // 
-            // lblCompanyManagerName
-            // 
-            this.lblCompanyManagerName.AutoSize = true;
-            this.lblCompanyManagerName.ForeColor = System.Drawing.Color.Green;
-            this.lblCompanyManagerName.Location = new System.Drawing.Point(176, 225);
-            this.lblCompanyManagerName.Name = "lblCompanyManagerName";
-            this.lblCompanyManagerName.Size = new System.Drawing.Size(86, 19);
-            this.lblCompanyManagerName.TabIndex = 8;
-            this.lblCompanyManagerName.Text = "Müdür Adı";
+            this.lblManagementName.AutoSize = true;
+            this.lblManagementName.ForeColor = System.Drawing.Color.Green;
+            this.lblManagementName.Location = new System.Drawing.Point(66, 225);
+            this.lblManagementName.Name = "lblManagementName";
+            this.lblManagementName.Size = new System.Drawing.Size(30, 19);
+            this.lblManagementName.TabIndex = 8;
+            this.lblManagementName.Text = "Ad";
             // 
             // label8
             // 
             this.label8.AutoSize = true;
             this.label8.Location = new System.Drawing.Point(20, 225);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(150, 19);
+            this.label8.Size = new System.Drawing.Size(40, 19);
             this.label8.TabIndex = 7;
-            this.label8.Text = "Şirket Müdürü Adı:";
+            this.label8.Text = "Adı:";
             // 
-            // tbxCompanyLawyerTCIN
+            // tbxManagementTCIN
             // 
-            this.tbxCompanyLawyerTCIN.ForeColor = System.Drawing.Color.Green;
-            this.tbxCompanyLawyerTCIN.Location = new System.Drawing.Point(20, 175);
-            this.tbxCompanyLawyerTCIN.MaxLength = 11;
-            this.tbxCompanyLawyerTCIN.Name = "tbxCompanyLawyerTCIN";
-            this.tbxCompanyLawyerTCIN.Size = new System.Drawing.Size(229, 26);
-            this.tbxCompanyLawyerTCIN.TabIndex = 6;
+            this.tbxManagementTCIN.ForeColor = System.Drawing.Color.Green;
+            this.tbxManagementTCIN.Location = new System.Drawing.Point(20, 175);
+            this.tbxManagementTCIN.MaxLength = 11;
+            this.tbxManagementTCIN.Name = "tbxManagementTCIN";
+            this.tbxManagementTCIN.Size = new System.Drawing.Size(244, 26);
+            this.tbxManagementTCIN.TabIndex = 3;
             // 
-            // lblCompanyLawyerTCIN
+            // lblManagementTCIN
             // 
-            this.lblCompanyLawyerTCIN.AutoSize = true;
-            this.lblCompanyLawyerTCIN.ForeColor = System.Drawing.Color.Green;
-            this.lblCompanyLawyerTCIN.Location = new System.Drawing.Point(194, 125);
-            this.lblCompanyLawyerTCIN.Name = "lblCompanyLawyerTCIN";
-            this.lblCompanyLawyerTCIN.Size = new System.Drawing.Size(55, 19);
-            this.lblCompanyLawyerTCIN.TabIndex = 5;
-            this.lblCompanyLawyerTCIN.Text = "TCKN";
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(20, 125);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(168, 19);
-            this.label4.TabIndex = 4;
-            this.label4.Text = "Şirket Avukatı TCKN:";
-            // 
-            // tbxCompanyManagerTCIN
-            // 
-            this.tbxCompanyManagerTCIN.ForeColor = System.Drawing.Color.Green;
-            this.tbxCompanyManagerTCIN.Location = new System.Drawing.Point(20, 75);
-            this.tbxCompanyManagerTCIN.MaxLength = 11;
-            this.tbxCompanyManagerTCIN.Name = "tbxCompanyManagerTCIN";
-            this.tbxCompanyManagerTCIN.Size = new System.Drawing.Size(233, 26);
-            this.tbxCompanyManagerTCIN.TabIndex = 3;
-            // 
-            // lblCompanyManagerTCIN
-            // 
-            this.lblCompanyManagerTCIN.AutoSize = true;
-            this.lblCompanyManagerTCIN.ForeColor = System.Drawing.Color.Green;
-            this.lblCompanyManagerTCIN.Location = new System.Drawing.Point(198, 25);
-            this.lblCompanyManagerTCIN.Name = "lblCompanyManagerTCIN";
-            this.lblCompanyManagerTCIN.Size = new System.Drawing.Size(55, 19);
-            this.lblCompanyManagerTCIN.TabIndex = 2;
-            this.lblCompanyManagerTCIN.Text = "TCKN";
+            this.lblManagementTCIN.AutoSize = true;
+            this.lblManagementTCIN.ForeColor = System.Drawing.Color.Green;
+            this.lblManagementTCIN.Location = new System.Drawing.Point(87, 125);
+            this.lblManagementTCIN.Name = "lblManagementTCIN";
+            this.lblManagementTCIN.Size = new System.Drawing.Size(55, 19);
+            this.lblManagementTCIN.TabIndex = 2;
+            this.lblManagementTCIN.Text = "TCKN";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(20, 25);
+            this.label2.Location = new System.Drawing.Point(20, 125);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(172, 19);
+            this.label2.Size = new System.Drawing.Size(61, 19);
             this.label2.TabIndex = 1;
-            this.label2.Text = "Şirket Müdürü TCKN:";
+            this.label2.Text = "TCKN:";
             // 
             // FormCreateManagementBranch
             // 
@@ -384,25 +391,25 @@
         private TabControl tabController;
         private TabPage tabCompanyManagers;
         private Label label2;
-        private Label lblCompanyManagerTCIN;
-        private TextBox tbxCompanyManagerTCIN;
-        private TextBox tbxCompanyLawyerTCIN;
-        private Label lblCompanyLawyerTCIN;
-        private Label label4;
+        private Label lblManagementTCIN;
+        private TextBox tbxManagementTCIN;
         private TextBox tbxManagementBranchID;
         private Label label3;
         private Label lblManagementBranchID;
-        private TextBox tbxCompanyLawyerName;
-        private Label lblCompanyLawyerName;
-        private Label label6;
-        private TextBox tbxCompanyManagerName;
-        private Label lblCompanyManagerName;
+        private TextBox tbxManagementName;
+        private Label lblManagementName;
         private Label label8;
-        private TextBox tbxCompanyLawyerSurname;
-        private Label lblCompanyLawyerSurname;
-        private Label label7;
-        private TextBox tbxCompanyManagerSurname;
-        private Label lblCompanyManagerSurname;
+        private TextBox tbxManagementSurname;
+        private Label lblManagementSurname;
         private Label label10;
+        private TextBox tbxManagementMobilePhone;
+        private Label lblManagementMobilePhone;
+        private Label label12;
+        private Label label4;
+        private RadioButton rbtnLawyer;
+        private RadioButton rbtnManager;
+        private TextBox tbxManagementEMail;
+        private Label lblManagementEMail;
+        private Label label5;
     }
 }
