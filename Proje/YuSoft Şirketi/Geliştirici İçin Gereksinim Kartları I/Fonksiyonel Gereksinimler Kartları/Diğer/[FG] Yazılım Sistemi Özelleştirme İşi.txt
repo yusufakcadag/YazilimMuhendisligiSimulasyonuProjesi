@@ -7,11 +7,11 @@ Fonksiyonlar:
 			- Yazılım Sistemi kurulurken ilk olarak Yönetim Şubesi için kurulur.
 			- Yönetim Şubesinin Adı kaydedilir.
 			- Yönetim Şubesinin Adı onaylanır.
-			- Yönetim Şubesinin Şirket Yöneticileri kaydedilir. *
+			- Yönetim Şubesinin Şirket Yöneticileri kaydedilir.
 			- Yönetim Şubesinin Şirket Yöneticileri onaylanır.
 			- Şirket Yöneticilerinin E-Posta adresine Şifreleri gönderilir. Ardından
 			değiştirilebilir.
-			- Şirket Müdürü Şube Müdürü olarak atanır.
+			- Şirket Müdürü Şube Müdürü olarak atanır. *
 			- Ardından Şirket Yönetimi İşi ve Şube Yönetimi İşi yapılır.
 			- Yönetim Şubesi kurulduktan sonra Şubeler için Yazılım Sistemi kurulurken Şirket
 			Yönetimi İşiyle kaydedilen Şube Adı seçilir ve o Şube için Yazılım Sistemi
