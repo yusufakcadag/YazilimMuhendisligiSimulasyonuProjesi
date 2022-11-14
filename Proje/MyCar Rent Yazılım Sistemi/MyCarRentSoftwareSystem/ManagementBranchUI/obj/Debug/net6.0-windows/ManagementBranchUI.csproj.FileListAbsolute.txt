@@ -15,3 +15,11 @@ C:\Users\akcad\Desktop\GitHub\Yazılım Mühendisliği Simülasyonu Projesi\Proj
 C:\Users\akcad\Desktop\GitHub\Yazılım Mühendisliği Simülasyonu Projesi\Proje\MyCar Rent Yazılım Sistemi\MyCarRentSoftwareSystem\ManagementBranchUI\obj\Debug\net6.0-windows\ManagementBranchUI.pdb
 C:\Users\akcad\Desktop\GitHub\Yazılım Mühendisliği Simülasyonu Projesi\Proje\MyCar Rent Yazılım Sistemi\MyCarRentSoftwareSystem\ManagementBranchUI\obj\Debug\net6.0-windows\ManagementBranchUI.genruntimeconfig.cache
 C:\Users\akcad\Desktop\GitHub\Yazılım Mühendisliği Simülasyonu Projesi\Proje\MyCar Rent Yazılım Sistemi\MyCarRentSoftwareSystem\ManagementBranchUI\obj\Debug\net6.0-windows\ref\ManagementBranchUI.dll
+C:\Users\akcad\Desktop\GitHub\Yazılım Mühendisliği Simülasyonu Projesi\Proje\MyCar Rent Yazılım Sistemi\MyCarRentSoftwareSystem\ManagementBranchUI\bin\Debug\net6.0-windows\LoginUI.deps.json
+C:\Users\akcad\Desktop\GitHub\Yazılım Mühendisliği Simülasyonu Projesi\Proje\MyCar Rent Yazılım Sistemi\MyCarRentSoftwareSystem\ManagementBranchUI\bin\Debug\net6.0-windows\LoginUI.runtimeconfig.json
+C:\Users\akcad\Desktop\GitHub\Yazılım Mühendisliği Simülasyonu Projesi\Proje\MyCar Rent Yazılım Sistemi\MyCarRentSoftwareSystem\ManagementBranchUI\bin\Debug\net6.0-windows\LoginUI.exe
+C:\Users\akcad\Desktop\GitHub\Yazılım Mühendisliği Simülasyonu Projesi\Proje\MyCar Rent Yazılım Sistemi\MyCarRentSoftwareSystem\ManagementBranchUI\bin\Debug\net6.0-windows\LoginUI.dll
+C:\Users\akcad\Desktop\GitHub\Yazılım Mühendisliği Simülasyonu Projesi\Proje\MyCar Rent Yazılım Sistemi\MyCarRentSoftwareSystem\ManagementBranchUI\bin\Debug\net6.0-windows\LoginUI.pdb
+C:\Users\akcad\Desktop\GitHub\Yazılım Mühendisliği Simülasyonu Projesi\Proje\MyCar Rent Yazılım Sistemi\MyCarRentSoftwareSystem\ManagementBranchUI\bin\Debug\net6.0-windows\dje\LoginUI.resources.dll
+C:\Users\akcad\Desktop\GitHub\Yazılım Mühendisliği Simülasyonu Projesi\Proje\MyCar Rent Yazılım Sistemi\MyCarRentSoftwareSystem\ManagementBranchUI\obj\Debug\net6.0-windows\ManagementBranchUI.csproj.CopyComplete
+C:\Users\akcad\Desktop\GitHub\Yazılım Mühendisliği Simülasyonu Projesi\Proje\MyCar Rent Yazılım Sistemi\MyCarRentSoftwareSystem\ManagementBranchUI\obj\Debug\net6.0-windows\ManagementBranchUI.FormManagementBranchMainMenu.resources

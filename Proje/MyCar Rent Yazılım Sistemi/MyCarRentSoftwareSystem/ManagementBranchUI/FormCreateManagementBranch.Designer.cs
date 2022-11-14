@@ -93,7 +93,7 @@
             this.tabBranchNameAndID.Location = new System.Drawing.Point(4, 28);
             this.tabBranchNameAndID.Name = "tabBranchNameAndID";
             this.tabBranchNameAndID.Padding = new System.Windows.Forms.Padding(3);
-            this.tabBranchNameAndID.Size = new System.Drawing.Size(1152, 905);
+            this.tabBranchNameAndID.Size = new System.Drawing.Size(1152, 668);
             this.tabBranchNameAndID.TabIndex = 0;
             this.tabBranchNameAndID.Text = "Şube Adı Ve ID\'si";
             // 
@@ -173,7 +173,7 @@
             this.tabController.Location = new System.Drawing.Point(12, 12);
             this.tabController.Name = "tabController";
             this.tabController.SelectedIndex = 0;
-            this.tabController.Size = new System.Drawing.Size(1160, 937);
+            this.tabController.Size = new System.Drawing.Size(1160, 700);
             this.tabController.TabIndex = 4;
             // 
             // tabCompanyManagers
@@ -217,10 +217,10 @@
             this.tabCompanyManagers.Controls.Add(this.lblDirectorTCIN);
             this.tabCompanyManagers.Controls.Add(this.label2);
             this.tabCompanyManagers.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.tabCompanyManagers.Location = new System.Drawing.Point(4, 28);
+            this.tabCompanyManagers.Location = new System.Drawing.Point(4, 24);
             this.tabCompanyManagers.Name = "tabCompanyManagers";
             this.tabCompanyManagers.Padding = new System.Windows.Forms.Padding(3);
-            this.tabCompanyManagers.Size = new System.Drawing.Size(1152, 905);
+            this.tabCompanyManagers.Size = new System.Drawing.Size(1152, 672);
             this.tabCompanyManagers.TabIndex = 1;
             this.tabCompanyManagers.Text = "Şirket Yönetimi";
             // 
@@ -590,7 +590,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 19F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.LightGray;
-            this.ClientSize = new System.Drawing.Size(1184, 961);
+            this.ClientSize = new System.Drawing.Size(1184, 711);
             this.Controls.Add(this.tabController);
             this.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.Margin = new System.Windows.Forms.Padding(4);

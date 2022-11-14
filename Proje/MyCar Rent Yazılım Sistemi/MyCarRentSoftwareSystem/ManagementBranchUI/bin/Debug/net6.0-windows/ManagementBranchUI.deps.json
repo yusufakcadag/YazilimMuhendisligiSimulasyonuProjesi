@@ -7,14 +7,32 @@
   "targets": {
     ".NETCoreApp,Version=v6.0": {
       "ManagementBranchUI/1.0.0": {
+        "dependencies": {
+          "LoginUI": "1.0.0"
+        },
         "runtime": {
           "ManagementBranchUI.dll": {}
+        }
+      },
+      "LoginUI/1.0.0": {
+        "runtime": {
+          "LoginUI.dll": {}
+        },
+        "resources": {
+          "dje/LoginUI.resources.dll": {
+            "locale": "dje"
+          }
         }
       }
     }
   },
   "libraries": {
     "ManagementBranchUI/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "LoginUI/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

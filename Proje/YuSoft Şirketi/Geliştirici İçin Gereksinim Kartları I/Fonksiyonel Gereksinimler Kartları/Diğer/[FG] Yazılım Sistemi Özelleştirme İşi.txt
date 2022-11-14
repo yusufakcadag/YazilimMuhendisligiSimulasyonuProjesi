@@ -11,13 +11,10 @@ Fonksiyonlar:
 			- Yönetim Şubesinin Şirket Yöneticileri onaylanır.
 			- Şirket Yöneticilerinin E-Posta adresine Şifreleri gönderilir. Ardından
 			değiştirilebilir.
-			- Şirket Müdürü Şube Müdürü olarak atanır. *
-			- Ardından Şirket Yönetimi İşi ve Şube Yönetimi İşi yapılır.
-			- Yönetim Şubesi kurulduktan sonra Şubeler için Yazılım Sistemi kurulurken Şirket
-			Yönetimi İşiyle kaydedilen Şube Adı seçilir ve o Şube için Yazılım Sistemi
-			özelleştirilir.
+			- Şirket Müdürü Şube Müdürü olarak atanır.
 ----------------------------------------------------------------------------------------------------
 İlişkili Varlıklar:
-	- YÖnetim Şubesi
-	- MyCar Rent Şubesi
+	- Yönetim Şubesi
+	- Şirket Yöneticisi
+	- Şube Müdürü
 ----------------------------------------------------------------------------------------------------

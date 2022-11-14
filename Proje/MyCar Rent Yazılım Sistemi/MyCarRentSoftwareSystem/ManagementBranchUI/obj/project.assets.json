@@ -1,11 +1,33 @@
 {
   "version": 3,
   "targets": {
-    "net6.0-windows7.0": {}
+    "net6.0-windows7.0": {
+      "LoginUI/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/LoginUI.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/LoginUI.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WindowsForms"
+        ]
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "LoginUI/1.0.0": {
+      "type": "project",
+      "path": "../LoginUI/LoginUI.csproj",
+      "msbuildProject": "../LoginUI/LoginUI.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net6.0-windows7.0": []
+    "net6.0-windows7.0": [
+      "LoginUI >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\akcad\\.nuget\\packages\\": {}
@@ -33,7 +55,11 @@
       "frameworks": {
         "net6.0-windows7.0": {
           "targetAlias": "net6.0-windows",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\akcad\\Desktop\\GitHub\\Yazılım Mühendisliği Simülasyonu Projesi\\Proje\\MyCar Rent Yazılım Sistemi\\MyCarRentSoftwareSystem\\LoginUI\\LoginUI.csproj": {
+              "projectPath": "C:\\Users\\akcad\\Desktop\\GitHub\\Yazılım Mühendisliği Simülasyonu Projesi\\Proje\\MyCar Rent Yazılım Sistemi\\MyCarRentSoftwareSystem\\LoginUI\\LoginUI.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -64,7 +90,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }

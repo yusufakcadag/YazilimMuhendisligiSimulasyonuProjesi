@@ -4,5 +4,8 @@
     <Compile Update="FormCreateManagementBranch.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="FormManagementBranchMainManu.cs">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
 </Project>
