@@ -58,6 +58,7 @@
             // 
             // btnSignIn
             // 
+            this.btnSignIn.ForeColor = System.Drawing.Color.Green;
             resources.ApplyResources(this.btnSignIn, "btnSignIn");
             this.btnSignIn.Name = "btnSignIn";
             this.btnSignIn.UseVisualStyleBackColor = true;

@@ -35,8 +35,34 @@
             this.tabVehicleRental = new System.Windows.Forms.TabPage();
             this.tbcVehicleRental = new System.Windows.Forms.TabControl();
             this.tabCompletedRentalEvents = new System.Windows.Forms.TabPage();
+            this.dgvCompletedRentalEvents = new System.Windows.Forms.DataGridView();
+            this.Title = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dgvCompletedRentalForEvents = new System.Windows.Forms.DataGridView();
+            this.VehiclePlate = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.MemberCustomerTCIN = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.MemberCustomerName = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.MemberCustomerSurname = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.RentalStartDate = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.tabRentalCompletion = new System.Windows.Forms.TabPage();
+            this.btnRCComplete = new System.Windows.Forms.Button();
+            this.lblRCCheck = new System.Windows.Forms.Label();
+            this.lblRCExplanation = new System.Windows.Forms.Label();
+            this.dgvActiveRental = new System.Windows.Forms.DataGridView();
+            this.dataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.tabActiveRentalEventWorks = new System.Windows.Forms.TabPage();
+            this.gbxAddEvent = new System.Windows.Forms.GroupBox();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
+            this.dgvActiveRentalForEventWorks = new System.Windows.Forms.DataGridView();
+            this.dataGridViewTextBoxColumn6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn7 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn8 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn9 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn10 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.tabVehicleRentalMain = new System.Windows.Forms.TabPage();
             this.tabRentalTracking = new System.Windows.Forms.TabPage();
             this.tabActiveRentalEvents = new System.Windows.Forms.TabPage();
@@ -113,9 +139,18 @@
             this.tabMemberCustomerBlackListWorks = new System.Windows.Forms.TabPage();
             this.tabBlackList = new System.Windows.Forms.TabPage();
             this.tabMemberCustomerRentalHistory = new System.Windows.Forms.TabPage();
+            this.button1 = new System.Windows.Forms.Button();
             this.tbcMain.SuspendLayout();
             this.tabVehicleRental.SuspendLayout();
             this.tbcVehicleRental.SuspendLayout();
+            this.tabCompletedRentalEvents.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvCompletedRentalEvents)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvCompletedRentalForEvents)).BeginInit();
+            this.tabRentalCompletion.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvActiveRental)).BeginInit();
+            this.tabActiveRentalEventWorks.SuspendLayout();
+            this.gbxAddEvent.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvActiveRentalForEventWorks)).BeginInit();
             this.tabTranportWorks.SuspendLayout();
             this.tbcTransferWorks.SuspendLayout();
             this.tabBranchWorks.SuspendLayout();
@@ -214,6 +249,8 @@
             // tabCompletedRentalEvents
             // 
             this.tabCompletedRentalEvents.BackColor = System.Drawing.Color.Silver;
+            this.tabCompletedRentalEvents.Controls.Add(this.dgvCompletedRentalEvents);
+            this.tabCompletedRentalEvents.Controls.Add(this.dgvCompletedRentalForEvents);
             this.tabCompletedRentalEvents.Location = new System.Drawing.Point(4, 33);
             this.tabCompletedRentalEvents.Name = "tabCompletedRentalEvents";
             this.tabCompletedRentalEvents.Padding = new System.Windows.Forms.Padding(3);
@@ -221,9 +258,69 @@
             this.tabCompletedRentalEvents.TabIndex = 0;
             this.tabCompletedRentalEvents.Text = "Tamamlanmış Kiralama Olayları";
             // 
+            // dgvCompletedRentalEvents
+            // 
+            this.dgvCompletedRentalEvents.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvCompletedRentalEvents.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.Title});
+            this.dgvCompletedRentalEvents.Location = new System.Drawing.Point(573, 6);
+            this.dgvCompletedRentalEvents.Name = "dgvCompletedRentalEvents";
+            this.dgvCompletedRentalEvents.RowTemplate.Height = 25;
+            this.dgvCompletedRentalEvents.Size = new System.Drawing.Size(553, 791);
+            this.dgvCompletedRentalEvents.TabIndex = 1;
+            // 
+            // Title
+            // 
+            this.Title.HeaderText = "Başlık";
+            this.Title.Name = "Title";
+            // 
+            // dgvCompletedRentalForEvents
+            // 
+            this.dgvCompletedRentalForEvents.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvCompletedRentalForEvents.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.VehiclePlate,
+            this.MemberCustomerTCIN,
+            this.MemberCustomerName,
+            this.MemberCustomerSurname,
+            this.RentalStartDate});
+            this.dgvCompletedRentalForEvents.Location = new System.Drawing.Point(6, 6);
+            this.dgvCompletedRentalForEvents.Name = "dgvCompletedRentalForEvents";
+            this.dgvCompletedRentalForEvents.RowTemplate.Height = 25;
+            this.dgvCompletedRentalForEvents.Size = new System.Drawing.Size(553, 791);
+            this.dgvCompletedRentalForEvents.TabIndex = 0;
+            // 
+            // VehiclePlate
+            // 
+            this.VehiclePlate.HeaderText = "Taşıt Plaka";
+            this.VehiclePlate.Name = "VehiclePlate";
+            // 
+            // MemberCustomerTCIN
+            // 
+            this.MemberCustomerTCIN.HeaderText = "Üye Müşteri TCKN";
+            this.MemberCustomerTCIN.Name = "MemberCustomerTCIN";
+            // 
+            // MemberCustomerName
+            // 
+            this.MemberCustomerName.HeaderText = "Üye Müşteri Ad";
+            this.MemberCustomerName.Name = "MemberCustomerName";
+            // 
+            // MemberCustomerSurname
+            // 
+            this.MemberCustomerSurname.HeaderText = "Üye Müşteri Soyad";
+            this.MemberCustomerSurname.Name = "MemberCustomerSurname";
+            // 
+            // RentalStartDate
+            // 
+            this.RentalStartDate.HeaderText = "Kiralama Başlangıç Tarihi";
+            this.RentalStartDate.Name = "RentalStartDate";
+            // 
             // tabRentalCompletion
             // 
             this.tabRentalCompletion.BackColor = System.Drawing.Color.Silver;
+            this.tabRentalCompletion.Controls.Add(this.btnRCComplete);
+            this.tabRentalCompletion.Controls.Add(this.lblRCCheck);
+            this.tabRentalCompletion.Controls.Add(this.lblRCExplanation);
+            this.tabRentalCompletion.Controls.Add(this.dgvActiveRental);
             this.tabRentalCompletion.Location = new System.Drawing.Point(4, 24);
             this.tabRentalCompletion.Name = "tabRentalCompletion";
             this.tabRentalCompletion.Padding = new System.Windows.Forms.Padding(3);
@@ -231,15 +328,162 @@
             this.tabRentalCompletion.TabIndex = 1;
             this.tabRentalCompletion.Text = "Kiralama Tamamlama";
             // 
+            // btnRCComplete
+            // 
+            this.btnRCComplete.ForeColor = System.Drawing.Color.Green;
+            this.btnRCComplete.Location = new System.Drawing.Point(565, 61);
+            this.btnRCComplete.Name = "btnRCComplete";
+            this.btnRCComplete.Size = new System.Drawing.Size(214, 37);
+            this.btnRCComplete.TabIndex = 4;
+            this.btnRCComplete.Text = "Kiralama Tamamla";
+            this.btnRCComplete.UseVisualStyleBackColor = true;
+            // 
+            // lblRCCheck
+            // 
+            this.lblRCCheck.AutoSize = true;
+            this.lblRCCheck.Location = new System.Drawing.Point(565, 32);
+            this.lblRCCheck.Name = "lblRCCheck";
+            this.lblRCCheck.Size = new System.Drawing.Size(84, 26);
+            this.lblRCCheck.TabIndex = 3;
+            this.lblRCCheck.Text = "Hesap:";
+            // 
+            // lblRCExplanation
+            // 
+            this.lblRCExplanation.AutoSize = true;
+            this.lblRCExplanation.Location = new System.Drawing.Point(565, 6);
+            this.lblRCExplanation.Name = "lblRCExplanation";
+            this.lblRCExplanation.Size = new System.Drawing.Size(111, 26);
+            this.lblRCExplanation.TabIndex = 2;
+            this.lblRCExplanation.Text = "Açıklama:";
+            // 
+            // dgvActiveRental
+            // 
+            this.dgvActiveRental.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvActiveRental.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.dataGridViewTextBoxColumn1,
+            this.dataGridViewTextBoxColumn2,
+            this.dataGridViewTextBoxColumn3,
+            this.dataGridViewTextBoxColumn4,
+            this.dataGridViewTextBoxColumn5});
+            this.dgvActiveRental.Location = new System.Drawing.Point(6, 6);
+            this.dgvActiveRental.Name = "dgvActiveRental";
+            this.dgvActiveRental.RowTemplate.Height = 25;
+            this.dgvActiveRental.Size = new System.Drawing.Size(553, 791);
+            this.dgvActiveRental.TabIndex = 1;
+            // 
+            // dataGridViewTextBoxColumn1
+            // 
+            this.dataGridViewTextBoxColumn1.DataPropertyName = "VehiclePlate";
+            this.dataGridViewTextBoxColumn1.HeaderText = "Taşıt Plaka";
+            this.dataGridViewTextBoxColumn1.Name = "dataGridViewTextBoxColumn1";
+            // 
+            // dataGridViewTextBoxColumn2
+            // 
+            this.dataGridViewTextBoxColumn2.DataPropertyName = "MemberCustomerTCIN";
+            this.dataGridViewTextBoxColumn2.HeaderText = "Üye Müşteri TCKN";
+            this.dataGridViewTextBoxColumn2.Name = "dataGridViewTextBoxColumn2";
+            // 
+            // dataGridViewTextBoxColumn3
+            // 
+            this.dataGridViewTextBoxColumn3.DataPropertyName = "MemberCustomerName";
+            this.dataGridViewTextBoxColumn3.HeaderText = "Üye Müşteri Ad";
+            this.dataGridViewTextBoxColumn3.Name = "dataGridViewTextBoxColumn3";
+            // 
+            // dataGridViewTextBoxColumn4
+            // 
+            this.dataGridViewTextBoxColumn4.DataPropertyName = "MemberCustomerSurname";
+            this.dataGridViewTextBoxColumn4.HeaderText = "Üye Müşteri Soyad";
+            this.dataGridViewTextBoxColumn4.Name = "dataGridViewTextBoxColumn4";
+            // 
+            // dataGridViewTextBoxColumn5
+            // 
+            this.dataGridViewTextBoxColumn5.DataPropertyName = "RentalStartDate";
+            this.dataGridViewTextBoxColumn5.HeaderText = "Kiralama Başlangıç Tarihi";
+            this.dataGridViewTextBoxColumn5.Name = "dataGridViewTextBoxColumn5";
+            // 
             // tabActiveRentalEventWorks
             // 
             this.tabActiveRentalEventWorks.BackColor = System.Drawing.Color.Silver;
-            this.tabActiveRentalEventWorks.Location = new System.Drawing.Point(4, 24);
+            this.tabActiveRentalEventWorks.Controls.Add(this.gbxAddEvent);
+            this.tabActiveRentalEventWorks.Controls.Add(this.dgvActiveRentalForEventWorks);
+            this.tabActiveRentalEventWorks.Location = new System.Drawing.Point(4, 33);
             this.tabActiveRentalEventWorks.Name = "tabActiveRentalEventWorks";
             this.tabActiveRentalEventWorks.Padding = new System.Windows.Forms.Padding(3);
-            this.tabActiveRentalEventWorks.Size = new System.Drawing.Size(1132, 812);
+            this.tabActiveRentalEventWorks.Size = new System.Drawing.Size(1132, 803);
             this.tabActiveRentalEventWorks.TabIndex = 2;
             this.tabActiveRentalEventWorks.Text = "Aktif Kiralama Olay İşleri";
+            // 
+            // gbxAddEvent
+            // 
+            this.gbxAddEvent.Controls.Add(this.button1);
+            this.gbxAddEvent.Controls.Add(this.textBox1);
+            this.gbxAddEvent.Controls.Add(this.richTextBox1);
+            this.gbxAddEvent.Location = new System.Drawing.Point(565, 6);
+            this.gbxAddEvent.Name = "gbxAddEvent";
+            this.gbxAddEvent.Size = new System.Drawing.Size(561, 218);
+            this.gbxAddEvent.TabIndex = 3;
+            this.gbxAddEvent.TabStop = false;
+            this.gbxAddEvent.Text = "Olay Ekle";
+            // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(6, 31);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(346, 32);
+            this.textBox1.TabIndex = 1;
+            // 
+            // richTextBox1
+            // 
+            this.richTextBox1.Location = new System.Drawing.Point(6, 69);
+            this.richTextBox1.Name = "richTextBox1";
+            this.richTextBox1.Size = new System.Drawing.Size(346, 100);
+            this.richTextBox1.TabIndex = 0;
+            this.richTextBox1.Text = "";
+            // 
+            // dgvActiveRentalForEventWorks
+            // 
+            this.dgvActiveRentalForEventWorks.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvActiveRentalForEventWorks.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.dataGridViewTextBoxColumn6,
+            this.dataGridViewTextBoxColumn7,
+            this.dataGridViewTextBoxColumn8,
+            this.dataGridViewTextBoxColumn9,
+            this.dataGridViewTextBoxColumn10});
+            this.dgvActiveRentalForEventWorks.Location = new System.Drawing.Point(6, 6);
+            this.dgvActiveRentalForEventWorks.Name = "dgvActiveRentalForEventWorks";
+            this.dgvActiveRentalForEventWorks.RowTemplate.Height = 25;
+            this.dgvActiveRentalForEventWorks.Size = new System.Drawing.Size(553, 791);
+            this.dgvActiveRentalForEventWorks.TabIndex = 2;
+            // 
+            // dataGridViewTextBoxColumn6
+            // 
+            this.dataGridViewTextBoxColumn6.DataPropertyName = "VehiclePlate";
+            this.dataGridViewTextBoxColumn6.HeaderText = "Taşıt Plaka";
+            this.dataGridViewTextBoxColumn6.Name = "dataGridViewTextBoxColumn6";
+            // 
+            // dataGridViewTextBoxColumn7
+            // 
+            this.dataGridViewTextBoxColumn7.DataPropertyName = "MemberCustomerTCIN";
+            this.dataGridViewTextBoxColumn7.HeaderText = "Üye Müşteri TCKN";
+            this.dataGridViewTextBoxColumn7.Name = "dataGridViewTextBoxColumn7";
+            // 
+            // dataGridViewTextBoxColumn8
+            // 
+            this.dataGridViewTextBoxColumn8.DataPropertyName = "MemberCustomerName";
+            this.dataGridViewTextBoxColumn8.HeaderText = "Üye Müşteri Ad";
+            this.dataGridViewTextBoxColumn8.Name = "dataGridViewTextBoxColumn8";
+            // 
+            // dataGridViewTextBoxColumn9
+            // 
+            this.dataGridViewTextBoxColumn9.DataPropertyName = "MemberCustomerSurname";
+            this.dataGridViewTextBoxColumn9.HeaderText = "Üye Müşteri Soyad";
+            this.dataGridViewTextBoxColumn9.Name = "dataGridViewTextBoxColumn9";
+            // 
+            // dataGridViewTextBoxColumn10
+            // 
+            this.dataGridViewTextBoxColumn10.DataPropertyName = "RentalStartDate";
+            this.dataGridViewTextBoxColumn10.HeaderText = "Kiralama Başlangıç Tarihi";
+            this.dataGridViewTextBoxColumn10.Name = "dataGridViewTextBoxColumn10";
             // 
             // tabVehicleRentalMain
             // 
@@ -644,10 +888,10 @@
             // 
             this.tabAdministrativeVehicleWorks.BackColor = System.Drawing.Color.Silver;
             this.tabAdministrativeVehicleWorks.Controls.Add(this.tbcAdministrativeVehicleWorks);
-            this.tabAdministrativeVehicleWorks.Location = new System.Drawing.Point(4, 33);
+            this.tabAdministrativeVehicleWorks.Location = new System.Drawing.Point(4, 24);
             this.tabAdministrativeVehicleWorks.Name = "tabAdministrativeVehicleWorks";
             this.tabAdministrativeVehicleWorks.Padding = new System.Windows.Forms.Padding(3);
-            this.tabAdministrativeVehicleWorks.Size = new System.Drawing.Size(1152, 852);
+            this.tabAdministrativeVehicleWorks.Size = new System.Drawing.Size(1152, 861);
             this.tabAdministrativeVehicleWorks.TabIndex = 6;
             this.tabAdministrativeVehicleWorks.Text = "Yönetimsel Taşıt İşleri";
             // 
@@ -957,10 +1201,10 @@
             // 
             this.tabMemberCustomerWorks.BackColor = System.Drawing.Color.Silver;
             this.tabMemberCustomerWorks.Controls.Add(this.tbcMemberCustomerWorks);
-            this.tabMemberCustomerWorks.Location = new System.Drawing.Point(4, 33);
+            this.tabMemberCustomerWorks.Location = new System.Drawing.Point(4, 24);
             this.tabMemberCustomerWorks.Name = "tabMemberCustomerWorks";
             this.tabMemberCustomerWorks.Padding = new System.Windows.Forms.Padding(3);
-            this.tabMemberCustomerWorks.Size = new System.Drawing.Size(1152, 852);
+            this.tabMemberCustomerWorks.Size = new System.Drawing.Size(1152, 861);
             this.tabMemberCustomerWorks.TabIndex = 8;
             this.tabMemberCustomerWorks.Text = "Üye Müşteri İşleri";
             // 
@@ -992,62 +1236,71 @@
             // tabMemberCustomerWorksMain
             // 
             this.tabMemberCustomerWorksMain.BackColor = System.Drawing.Color.Silver;
-            this.tabMemberCustomerWorksMain.Location = new System.Drawing.Point(4, 33);
+            this.tabMemberCustomerWorksMain.Location = new System.Drawing.Point(4, 24);
             this.tabMemberCustomerWorksMain.Name = "tabMemberCustomerWorksMain";
             this.tabMemberCustomerWorksMain.Padding = new System.Windows.Forms.Padding(3);
-            this.tabMemberCustomerWorksMain.Size = new System.Drawing.Size(1132, 803);
+            this.tabMemberCustomerWorksMain.Size = new System.Drawing.Size(1132, 812);
             this.tabMemberCustomerWorksMain.TabIndex = 1;
             this.tabMemberCustomerWorksMain.Text = "Üye Müşteri İşleri";
             // 
             // tabMemberCustomers
             // 
             this.tabMemberCustomers.BackColor = System.Drawing.Color.Silver;
-            this.tabMemberCustomers.Location = new System.Drawing.Point(4, 33);
+            this.tabMemberCustomers.Location = new System.Drawing.Point(4, 24);
             this.tabMemberCustomers.Name = "tabMemberCustomers";
             this.tabMemberCustomers.Padding = new System.Windows.Forms.Padding(3);
-            this.tabMemberCustomers.Size = new System.Drawing.Size(1132, 803);
+            this.tabMemberCustomers.Size = new System.Drawing.Size(1132, 812);
             this.tabMemberCustomers.TabIndex = 2;
             this.tabMemberCustomers.Text = "Üye Müşteriler";
             // 
             // tabMemberCustomerEvents
             // 
             this.tabMemberCustomerEvents.BackColor = System.Drawing.Color.Silver;
-            this.tabMemberCustomerEvents.Location = new System.Drawing.Point(4, 33);
+            this.tabMemberCustomerEvents.Location = new System.Drawing.Point(4, 24);
             this.tabMemberCustomerEvents.Name = "tabMemberCustomerEvents";
             this.tabMemberCustomerEvents.Padding = new System.Windows.Forms.Padding(3);
-            this.tabMemberCustomerEvents.Size = new System.Drawing.Size(1132, 803);
+            this.tabMemberCustomerEvents.Size = new System.Drawing.Size(1132, 812);
             this.tabMemberCustomerEvents.TabIndex = 3;
             this.tabMemberCustomerEvents.Text = "Üye Müşteri Olayları";
             // 
             // tabMemberCustomerBlackListWorks
             // 
             this.tabMemberCustomerBlackListWorks.BackColor = System.Drawing.Color.Silver;
-            this.tabMemberCustomerBlackListWorks.Location = new System.Drawing.Point(4, 33);
+            this.tabMemberCustomerBlackListWorks.Location = new System.Drawing.Point(4, 24);
             this.tabMemberCustomerBlackListWorks.Name = "tabMemberCustomerBlackListWorks";
             this.tabMemberCustomerBlackListWorks.Padding = new System.Windows.Forms.Padding(3);
-            this.tabMemberCustomerBlackListWorks.Size = new System.Drawing.Size(1132, 803);
+            this.tabMemberCustomerBlackListWorks.Size = new System.Drawing.Size(1132, 812);
             this.tabMemberCustomerBlackListWorks.TabIndex = 4;
             this.tabMemberCustomerBlackListWorks.Text = "Üye Müşteri Kara Liste İşleri";
             // 
             // tabBlackList
             // 
             this.tabBlackList.BackColor = System.Drawing.Color.Silver;
-            this.tabBlackList.Location = new System.Drawing.Point(4, 33);
+            this.tabBlackList.Location = new System.Drawing.Point(4, 24);
             this.tabBlackList.Name = "tabBlackList";
             this.tabBlackList.Padding = new System.Windows.Forms.Padding(3);
-            this.tabBlackList.Size = new System.Drawing.Size(1132, 803);
+            this.tabBlackList.Size = new System.Drawing.Size(1132, 812);
             this.tabBlackList.TabIndex = 5;
             this.tabBlackList.Text = "Kara Liste";
             // 
             // tabMemberCustomerRentalHistory
             // 
             this.tabMemberCustomerRentalHistory.BackColor = System.Drawing.Color.Silver;
-            this.tabMemberCustomerRentalHistory.Location = new System.Drawing.Point(4, 33);
+            this.tabMemberCustomerRentalHistory.Location = new System.Drawing.Point(4, 24);
             this.tabMemberCustomerRentalHistory.Name = "tabMemberCustomerRentalHistory";
             this.tabMemberCustomerRentalHistory.Padding = new System.Windows.Forms.Padding(3);
-            this.tabMemberCustomerRentalHistory.Size = new System.Drawing.Size(1132, 803);
+            this.tabMemberCustomerRentalHistory.Size = new System.Drawing.Size(1132, 812);
             this.tabMemberCustomerRentalHistory.TabIndex = 6;
             this.tabMemberCustomerRentalHistory.Text = "Üye Müşteri Kiralama Geçmişi";
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(6, 175);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(112, 33);
+            this.button1.TabIndex = 2;
+            this.button1.Text = "button1";
+            this.button1.UseVisualStyleBackColor = true;
             // 
             // FormManagementBranchMainMenu
             // 
@@ -1066,6 +1319,16 @@
             this.tbcMain.ResumeLayout(false);
             this.tabVehicleRental.ResumeLayout(false);
             this.tbcVehicleRental.ResumeLayout(false);
+            this.tabCompletedRentalEvents.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.dgvCompletedRentalEvents)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvCompletedRentalForEvents)).EndInit();
+            this.tabRentalCompletion.ResumeLayout(false);
+            this.tabRentalCompletion.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvActiveRental)).EndInit();
+            this.tabActiveRentalEventWorks.ResumeLayout(false);
+            this.gbxAddEvent.ResumeLayout(false);
+            this.gbxAddEvent.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvActiveRentalForEventWorks)).EndInit();
             this.tabTranportWorks.ResumeLayout(false);
             this.tbcTransferWorks.ResumeLayout(false);
             this.tabBranchWorks.ResumeLayout(false);
@@ -1174,5 +1437,32 @@
         private TabPage tabMemberCustomerBlackListWorks;
         private TabPage tabBlackList;
         private TabPage tabMemberCustomerRentalHistory;
+        private DataGridView dgvCompletedRentalForEvents;
+        private DataGridView dgvCompletedRentalEvents;
+        private DataGridViewTextBoxColumn VehiclePlate;
+        private DataGridViewTextBoxColumn MemberCustomerTCIN;
+        private DataGridViewTextBoxColumn MemberCustomerName;
+        private DataGridViewTextBoxColumn MemberCustomerSurname;
+        private DataGridViewTextBoxColumn RentalStartDate;
+        private DataGridViewTextBoxColumn Title;
+        private DataGridView dgvActiveRental;
+        private DataGridViewTextBoxColumn dataGridViewTextBoxColumn1;
+        private DataGridViewTextBoxColumn dataGridViewTextBoxColumn2;
+        private DataGridViewTextBoxColumn dataGridViewTextBoxColumn3;
+        private DataGridViewTextBoxColumn dataGridViewTextBoxColumn4;
+        private DataGridViewTextBoxColumn dataGridViewTextBoxColumn5;
+        private Button btnRCComplete;
+        private Label lblRCCheck;
+        private Label lblRCExplanation;
+        private DataGridView dgvActiveRentalForEventWorks;
+        private DataGridViewTextBoxColumn dataGridViewTextBoxColumn6;
+        private DataGridViewTextBoxColumn dataGridViewTextBoxColumn7;
+        private DataGridViewTextBoxColumn dataGridViewTextBoxColumn8;
+        private DataGridViewTextBoxColumn dataGridViewTextBoxColumn9;
+        private DataGridViewTextBoxColumn dataGridViewTextBoxColumn10;
+        private GroupBox gbxAddEvent;
+        private TextBox textBox1;
+        private RichTextBox richTextBox1;
+        private Button button1;
     }
 }
