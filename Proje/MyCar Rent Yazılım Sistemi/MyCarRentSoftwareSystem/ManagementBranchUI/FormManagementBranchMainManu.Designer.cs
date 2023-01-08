@@ -64,6 +64,16 @@
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle34 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle35 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle36 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle37 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle38 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle39 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle40 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle41 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle42 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle43 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle44 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle45 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle46 = new System.Windows.Forms.DataGridViewCellStyle();
             this.lblUserName = new System.Windows.Forms.Label();
             this.btnQuit = new System.Windows.Forms.Button();
             this.btnChangePassword = new System.Windows.Forms.Button();
@@ -165,7 +175,7 @@
             this.CRMemberCustomerName = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.CRMemberCustomerSurname = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.CRRentalStartDate = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.tabTranportWorks = new System.Windows.Forms.TabPage();
+            this.tabTransferWorks = new System.Windows.Forms.TabPage();
             this.tbcTransferWorks = new System.Windows.Forms.TabControl();
             this.tabCompletedTransferEvents = new System.Windows.Forms.TabPage();
             this.uulbl13 = new System.Windows.Forms.Label();
@@ -209,10 +219,35 @@
             this.ATEWChauffeurName = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.ATEWChauffeurSurname = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.ATEWTransferStartDate = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.tabVehicleTransport = new System.Windows.Forms.TabPage();
-            this.dgvNotBelongingVehicleForVehicleTransport = new System.Windows.Forms.DataGridView();
+            this.tabVehicleTransfer = new System.Windows.Forms.TabPage();
+            this.btnStartTransfer = new System.Windows.Forms.Button();
+            this.lblStartDateForVehicleTransfer = new System.Windows.Forms.Label();
+            this.lblMainBranchForVehicleTransfer = new System.Windows.Forms.Label();
+            this.lblVehicleForVehicleTransfer = new System.Windows.Forms.Label();
+            this.lblChauffeurForVehicleTransfer = new System.Windows.Forms.Label();
+            this.calForVehicleTransfer = new System.Windows.Forms.MonthCalendar();
+            this.dgvChauffeursForVehicleTransfer = new System.Windows.Forms.DataGridView();
+            this.VTChauffeurTCIN = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.VTChauffeurName = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.VTChauffeurSurname = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dgvNotBelongingVehicleForVehicleTransfer = new System.Windows.Forms.DataGridView();
+            this.VTVehiclePlate = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.VTVehicleBrand = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.VTVehicleModel = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.VTMainBranchName = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.VTHostBranchName = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.tabTransferTracking = new System.Windows.Forms.TabPage();
+            this.dgvActiveTransferForTransferTracking = new System.Windows.Forms.DataGridView();
+            this.TTVehiclePlate = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.TTChauffeurTCIN = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.TTChauffeurName = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.TTChauffeurSurname = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.TTTransferStartDate = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.tabActiveTransferEvents = new System.Windows.Forms.TabPage();
+            this.uulbl18 = new System.Windows.Forms.Label();
+            this.uulbl17 = new System.Windows.Forms.Label();
+            this.dgvEventsForActiveTransferEvents = new System.Windows.Forms.DataGridView();
+            this.dgvActiveTransfersForActiveTransferEvents = new System.Windows.Forms.DataGridView();
             this.tabCompletedTransfer = new System.Windows.Forms.TabPage();
             this.tabBranchWorks = new System.Windows.Forms.TabPage();
             this.tbcBranchWorks = new System.Windows.Forms.TabControl();
@@ -277,11 +312,19 @@
             this.tabMemberCustomerBlackListWorks = new System.Windows.Forms.TabPage();
             this.tabBlackList = new System.Windows.Forms.TabPage();
             this.tabMemberCustomerRentalHistory = new System.Windows.Forms.TabPage();
-            this.VTVehiclePlate = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.VTVehicleBrand = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.VTVehicleModel = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.VTMainBranchName = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.VTHostBranchName = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ATEVehiclePlate = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ATEChauffeurTCIN = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ATEChauffeurName = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ATEChauffeurSurname = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ATETransferStartDate = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ATEEventTitle = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.uulbl19 = new System.Windows.Forms.Label();
+            this.dgvComplatedTransfers = new System.Windows.Forms.DataGridView();
+            this.CTVehiclePlate = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.CTChauffeurTCIN = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.CTChauffeurName = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.CTChauffeurSurname = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.CTTransferStartDate = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.tbcMain.SuspendLayout();
             this.tabVehicleRental.SuspendLayout();
             this.tbcVehicleRental.SuspendLayout();
@@ -307,7 +350,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.dgvActiveRentalsForRentalEvents)).BeginInit();
             this.tabCompletedRentals.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvCompletedRentals)).BeginInit();
-            this.tabTranportWorks.SuspendLayout();
+            this.tabTransferWorks.SuspendLayout();
             this.tbcTransferWorks.SuspendLayout();
             this.tabCompletedTransferEvents.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvCompletedTransferEvents)).BeginInit();
@@ -319,8 +362,15 @@
             this.gbxUpdateTransferEvent.SuspendLayout();
             this.gbxAddTransferEvent.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvActiveTransfersForTransferEventWorks)).BeginInit();
-            this.tabVehicleTransport.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dgvNotBelongingVehicleForVehicleTransport)).BeginInit();
+            this.tabVehicleTransfer.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvChauffeursForVehicleTransfer)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvNotBelongingVehicleForVehicleTransfer)).BeginInit();
+            this.tabTransferTracking.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvActiveTransferForTransferTracking)).BeginInit();
+            this.tabActiveTransferEvents.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvEventsForActiveTransferEvents)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvActiveTransfersForActiveTransferEvents)).BeginInit();
+            this.tabCompletedTransfer.SuspendLayout();
             this.tabBranchWorks.SuspendLayout();
             this.tbcBranchWorks.SuspendLayout();
             this.tabBranchFinancialWorks.SuspendLayout();
@@ -335,6 +385,7 @@
             this.tbcVehicleWorks.SuspendLayout();
             this.tabMemberCustomerWorks.SuspendLayout();
             this.tbcMemberCustomerWorks.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvComplatedTransfers)).BeginInit();
             this.SuspendLayout();
             // 
             // lblUserName
@@ -374,7 +425,7 @@
             // tbcMain
             // 
             this.tbcMain.Controls.Add(this.tabVehicleRental);
-            this.tbcMain.Controls.Add(this.tabTranportWorks);
+            this.tbcMain.Controls.Add(this.tabTransferWorks);
             this.tbcMain.Controls.Add(this.tabBranchWorks);
             this.tbcMain.Controls.Add(this.tabBranchFinancialWorks);
             this.tbcMain.Controls.Add(this.tabCompanyFinancialWorks);
@@ -1160,10 +1211,10 @@
             this.tabRentalTracking.BackColor = System.Drawing.Color.Silver;
             this.tabRentalTracking.Controls.Add(this.uulbl8);
             this.tabRentalTracking.Controls.Add(this.dgvActiveRentalsForRentalTracking);
-            this.tabRentalTracking.Location = new System.Drawing.Point(4, 24);
+            this.tabRentalTracking.Location = new System.Drawing.Point(4, 33);
             this.tabRentalTracking.Name = "tabRentalTracking";
             this.tabRentalTracking.Padding = new System.Windows.Forms.Padding(3);
-            this.tabRentalTracking.Size = new System.Drawing.Size(1132, 812);
+            this.tabRentalTracking.Size = new System.Drawing.Size(1132, 803);
             this.tabRentalTracking.TabIndex = 4;
             this.tabRentalTracking.Text = "Kiralama Takibi";
             // 
@@ -1240,10 +1291,10 @@
             this.tabActiveRentalEvents.Controls.Add(this.uulbl9);
             this.tabActiveRentalEvents.Controls.Add(this.dgvActiveRentalEvents);
             this.tabActiveRentalEvents.Controls.Add(this.dgvActiveRentalsForRentalEvents);
-            this.tabActiveRentalEvents.Location = new System.Drawing.Point(4, 24);
+            this.tabActiveRentalEvents.Location = new System.Drawing.Point(4, 33);
             this.tabActiveRentalEvents.Name = "tabActiveRentalEvents";
             this.tabActiveRentalEvents.Padding = new System.Windows.Forms.Padding(3);
-            this.tabActiveRentalEvents.Size = new System.Drawing.Size(1132, 812);
+            this.tabActiveRentalEvents.Size = new System.Drawing.Size(1132, 803);
             this.tabActiveRentalEvents.TabIndex = 5;
             this.tabActiveRentalEvents.Text = "Aktif Kiralama Olayları";
             // 
@@ -1360,10 +1411,10 @@
             this.tabCompletedRentals.BackColor = System.Drawing.Color.Silver;
             this.tabCompletedRentals.Controls.Add(this.uulbl11);
             this.tabCompletedRentals.Controls.Add(this.dgvCompletedRentals);
-            this.tabCompletedRentals.Location = new System.Drawing.Point(4, 24);
+            this.tabCompletedRentals.Location = new System.Drawing.Point(4, 33);
             this.tabCompletedRentals.Name = "tabCompletedRentals";
             this.tabCompletedRentals.Padding = new System.Windows.Forms.Padding(3);
-            this.tabCompletedRentals.Size = new System.Drawing.Size(1132, 812);
+            this.tabCompletedRentals.Size = new System.Drawing.Size(1132, 803);
             this.tabCompletedRentals.TabIndex = 6;
             this.tabCompletedRentals.Text = "Tamamlanmış Kiralamalar";
             // 
@@ -1433,23 +1484,23 @@
             this.CRRentalStartDate.HeaderText = "Kiralama Başlangıç Tarihi";
             this.CRRentalStartDate.Name = "CRRentalStartDate";
             // 
-            // tabTranportWorks
+            // tabTransferWorks
             // 
-            this.tabTranportWorks.BackColor = System.Drawing.Color.Silver;
-            this.tabTranportWorks.Controls.Add(this.tbcTransferWorks);
-            this.tabTranportWorks.Location = new System.Drawing.Point(4, 33);
-            this.tabTranportWorks.Name = "tabTranportWorks";
-            this.tabTranportWorks.Padding = new System.Windows.Forms.Padding(3);
-            this.tabTranportWorks.Size = new System.Drawing.Size(1152, 852);
-            this.tabTranportWorks.TabIndex = 1;
-            this.tabTranportWorks.Text = "Nakil İşleri";
+            this.tabTransferWorks.BackColor = System.Drawing.Color.Silver;
+            this.tabTransferWorks.Controls.Add(this.tbcTransferWorks);
+            this.tabTransferWorks.Location = new System.Drawing.Point(4, 33);
+            this.tabTransferWorks.Name = "tabTransferWorks";
+            this.tabTransferWorks.Padding = new System.Windows.Forms.Padding(3);
+            this.tabTransferWorks.Size = new System.Drawing.Size(1152, 852);
+            this.tabTransferWorks.TabIndex = 1;
+            this.tabTransferWorks.Text = "Nakil İşleri";
             // 
             // tbcTransferWorks
             // 
             this.tbcTransferWorks.Controls.Add(this.tabCompletedTransferEvents);
             this.tbcTransferWorks.Controls.Add(this.tabTransferCompletion);
             this.tbcTransferWorks.Controls.Add(this.tabActiveTransferEventWorks);
-            this.tbcTransferWorks.Controls.Add(this.tabVehicleTransport);
+            this.tbcTransferWorks.Controls.Add(this.tabVehicleTransfer);
             this.tbcTransferWorks.Controls.Add(this.tabTransferTracking);
             this.tbcTransferWorks.Controls.Add(this.tabActiveTransferEvents);
             this.tbcTransferWorks.Controls.Add(this.tabCompletedTransfer);
@@ -1506,16 +1557,16 @@
             this.dgvCompletedTransferEvents.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvCompletedTransferEvents.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.CTEEventTitle});
-            dataGridViewCellStyle26.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle26.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle26.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            dataGridViewCellStyle26.ForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle26.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle26.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle26.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dgvCompletedTransferEvents.DefaultCellStyle = dataGridViewCellStyle26;
             this.dgvCompletedTransferEvents.Location = new System.Drawing.Point(562, 33);
             this.dgvCompletedTransferEvents.Name = "dgvCompletedTransferEvents";
+            dataGridViewCellStyle26.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle26.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle26.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            dataGridViewCellStyle26.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle26.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle26.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle26.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgvCompletedTransferEvents.RowHeadersDefaultCellStyle = dataGridViewCellStyle26;
             this.dgvCompletedTransferEvents.RowTemplate.Height = 25;
             this.dgvCompletedTransferEvents.Size = new System.Drawing.Size(564, 765);
             this.dgvCompletedTransferEvents.TabIndex = 5;
@@ -1901,18 +1952,81 @@
             this.ATEWTransferStartDate.HeaderText = "Nakil Başlangıç Tarihi";
             this.ATEWTransferStartDate.Name = "ATEWTransferStartDate";
             // 
-            // tabVehicleTransport
+            // tabVehicleTransfer
             // 
-            this.tabVehicleTransport.BackColor = System.Drawing.Color.Silver;
-            this.tabVehicleTransport.Controls.Add(this.dgvNotBelongingVehicleForVehicleTransport);
-            this.tabVehicleTransport.Location = new System.Drawing.Point(4, 33);
-            this.tabVehicleTransport.Name = "tabVehicleTransport";
-            this.tabVehicleTransport.Padding = new System.Windows.Forms.Padding(3);
-            this.tabVehicleTransport.Size = new System.Drawing.Size(1132, 803);
-            this.tabVehicleTransport.TabIndex = 3;
-            this.tabVehicleTransport.Text = "Taşıt Nakletme";
+            this.tabVehicleTransfer.BackColor = System.Drawing.Color.Silver;
+            this.tabVehicleTransfer.Controls.Add(this.btnStartTransfer);
+            this.tabVehicleTransfer.Controls.Add(this.lblStartDateForVehicleTransfer);
+            this.tabVehicleTransfer.Controls.Add(this.lblMainBranchForVehicleTransfer);
+            this.tabVehicleTransfer.Controls.Add(this.lblVehicleForVehicleTransfer);
+            this.tabVehicleTransfer.Controls.Add(this.lblChauffeurForVehicleTransfer);
+            this.tabVehicleTransfer.Controls.Add(this.calForVehicleTransfer);
+            this.tabVehicleTransfer.Controls.Add(this.dgvChauffeursForVehicleTransfer);
+            this.tabVehicleTransfer.Controls.Add(this.dgvNotBelongingVehicleForVehicleTransfer);
+            this.tabVehicleTransfer.Location = new System.Drawing.Point(4, 33);
+            this.tabVehicleTransfer.Name = "tabVehicleTransfer";
+            this.tabVehicleTransfer.Padding = new System.Windows.Forms.Padding(3);
+            this.tabVehicleTransfer.Size = new System.Drawing.Size(1132, 803);
+            this.tabVehicleTransfer.TabIndex = 3;
+            this.tabVehicleTransfer.Text = "Taşıt Nakletme";
             // 
-            // dgvNotBelongingVehicleForVehicleTransport
+            // btnStartTransfer
+            // 
+            this.btnStartTransfer.ForeColor = System.Drawing.Color.Green;
+            this.btnStartTransfer.Location = new System.Drawing.Point(560, 758);
+            this.btnStartTransfer.Name = "btnStartTransfer";
+            this.btnStartTransfer.Size = new System.Drawing.Size(197, 39);
+            this.btnStartTransfer.TabIndex = 13;
+            this.btnStartTransfer.Text = "Nakli Başlat";
+            this.btnStartTransfer.UseVisualStyleBackColor = true;
+            // 
+            // lblStartDateForVehicleTransfer
+            // 
+            this.lblStartDateForVehicleTransfer.AutoSize = true;
+            this.lblStartDateForVehicleTransfer.ForeColor = System.Drawing.Color.Green;
+            this.lblStartDateForVehicleTransfer.Location = new System.Drawing.Point(560, 489);
+            this.lblStartDateForVehicleTransfer.Name = "lblStartDateForVehicleTransfer";
+            this.lblStartDateForVehicleTransfer.Size = new System.Drawing.Size(181, 26);
+            this.lblStartDateForVehicleTransfer.TabIndex = 12;
+            this.lblStartDateForVehicleTransfer.Text = "Başlangıç Tarihi:";
+            // 
+            // lblMainBranchForVehicleTransfer
+            // 
+            this.lblMainBranchForVehicleTransfer.AutoSize = true;
+            this.lblMainBranchForVehicleTransfer.ForeColor = System.Drawing.Color.Green;
+            this.lblMainBranchForVehicleTransfer.Location = new System.Drawing.Point(560, 446);
+            this.lblMainBranchForVehicleTransfer.Name = "lblMainBranchForVehicleTransfer";
+            this.lblMainBranchForVehicleTransfer.Size = new System.Drawing.Size(185, 26);
+            this.lblMainBranchForVehicleTransfer.TabIndex = 11;
+            this.lblMainBranchForVehicleTransfer.Text = "Ait Olduğu Şube:";
+            // 
+            // lblVehicleForVehicleTransfer
+            // 
+            this.lblVehicleForVehicleTransfer.AutoSize = true;
+            this.lblVehicleForVehicleTransfer.ForeColor = System.Drawing.Color.Green;
+            this.lblVehicleForVehicleTransfer.Location = new System.Drawing.Point(560, 401);
+            this.lblVehicleForVehicleTransfer.Name = "lblVehicleForVehicleTransfer";
+            this.lblVehicleForVehicleTransfer.Size = new System.Drawing.Size(68, 26);
+            this.lblVehicleForVehicleTransfer.TabIndex = 10;
+            this.lblVehicleForVehicleTransfer.Text = "Taşıt:";
+            // 
+            // lblChauffeurForVehicleTransfer
+            // 
+            this.lblChauffeurForVehicleTransfer.AutoSize = true;
+            this.lblChauffeurForVehicleTransfer.ForeColor = System.Drawing.Color.Green;
+            this.lblChauffeurForVehicleTransfer.Location = new System.Drawing.Point(560, 356);
+            this.lblChauffeurForVehicleTransfer.Name = "lblChauffeurForVehicleTransfer";
+            this.lblChauffeurForVehicleTransfer.Size = new System.Drawing.Size(75, 26);
+            this.lblChauffeurForVehicleTransfer.TabIndex = 9;
+            this.lblChauffeurForVehicleTransfer.Text = "Şoför:";
+            // 
+            // calForVehicleTransfer
+            // 
+            this.calForVehicleTransfer.Location = new System.Drawing.Point(728, 12);
+            this.calForVehicleTransfer.Name = "calForVehicleTransfer";
+            this.calForVehicleTransfer.TabIndex = 4;
+            // 
+            // dgvChauffeursForVehicleTransfer
             // 
             dataGridViewCellStyle35.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle35.BackColor = System.Drawing.SystemColors.Control;
@@ -1921,14 +2035,12 @@
             dataGridViewCellStyle35.SelectionBackColor = System.Drawing.SystemColors.Highlight;
             dataGridViewCellStyle35.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
             dataGridViewCellStyle35.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgvNotBelongingVehicleForVehicleTransport.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle35;
-            this.dgvNotBelongingVehicleForVehicleTransport.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvNotBelongingVehicleForVehicleTransport.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.VTVehiclePlate,
-            this.VTVehicleBrand,
-            this.VTVehicleModel,
-            this.VTMainBranchName,
-            this.VTHostBranchName});
+            this.dgvChauffeursForVehicleTransfer.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle35;
+            this.dgvChauffeursForVehicleTransfer.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvChauffeursForVehicleTransfer.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.VTChauffeurTCIN,
+            this.VTChauffeurName,
+            this.VTChauffeurSurname});
             dataGridViewCellStyle36.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle36.BackColor = System.Drawing.SystemColors.Window;
             dataGridViewCellStyle36.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
@@ -1936,40 +2048,252 @@
             dataGridViewCellStyle36.SelectionBackColor = System.Drawing.SystemColors.Highlight;
             dataGridViewCellStyle36.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
             dataGridViewCellStyle36.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dgvNotBelongingVehicleForVehicleTransport.DefaultCellStyle = dataGridViewCellStyle36;
-            this.dgvNotBelongingVehicleForVehicleTransport.Location = new System.Drawing.Point(6, 6);
-            this.dgvNotBelongingVehicleForVehicleTransport.Name = "dgvNotBelongingVehicleForVehicleTransport";
-            this.dgvNotBelongingVehicleForVehicleTransport.RowTemplate.Height = 25;
-            this.dgvNotBelongingVehicleForVehicleTransport.Size = new System.Drawing.Size(548, 791);
-            this.dgvNotBelongingVehicleForVehicleTransport.TabIndex = 0;
+            this.dgvChauffeursForVehicleTransfer.DefaultCellStyle = dataGridViewCellStyle36;
+            this.dgvChauffeursForVehicleTransfer.Location = new System.Drawing.Point(6, 356);
+            this.dgvChauffeursForVehicleTransfer.Name = "dgvChauffeursForVehicleTransfer";
+            this.dgvChauffeursForVehicleTransfer.RowTemplate.Height = 25;
+            this.dgvChauffeursForVehicleTransfer.Size = new System.Drawing.Size(548, 441);
+            this.dgvChauffeursForVehicleTransfer.TabIndex = 1;
+            // 
+            // VTChauffeurTCIN
+            // 
+            this.VTChauffeurTCIN.HeaderText = "Şoför TCKN";
+            this.VTChauffeurTCIN.Name = "VTChauffeurTCIN";
+            // 
+            // VTChauffeurName
+            // 
+            this.VTChauffeurName.HeaderText = "Şoför Ad";
+            this.VTChauffeurName.Name = "VTChauffeurName";
+            // 
+            // VTChauffeurSurname
+            // 
+            this.VTChauffeurSurname.HeaderText = "Şoför Soyad";
+            this.VTChauffeurSurname.Name = "VTChauffeurSurname";
+            // 
+            // dgvNotBelongingVehicleForVehicleTransfer
+            // 
+            dataGridViewCellStyle37.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle37.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle37.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            dataGridViewCellStyle37.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle37.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle37.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle37.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgvNotBelongingVehicleForVehicleTransfer.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle37;
+            this.dgvNotBelongingVehicleForVehicleTransfer.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvNotBelongingVehicleForVehicleTransfer.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.VTVehiclePlate,
+            this.VTVehicleBrand,
+            this.VTVehicleModel,
+            this.VTMainBranchName,
+            this.VTHostBranchName});
+            dataGridViewCellStyle38.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle38.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle38.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            dataGridViewCellStyle38.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle38.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle38.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle38.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dgvNotBelongingVehicleForVehicleTransfer.DefaultCellStyle = dataGridViewCellStyle38;
+            this.dgvNotBelongingVehicleForVehicleTransfer.Location = new System.Drawing.Point(6, 6);
+            this.dgvNotBelongingVehicleForVehicleTransfer.Name = "dgvNotBelongingVehicleForVehicleTransfer";
+            this.dgvNotBelongingVehicleForVehicleTransfer.RowTemplate.Height = 25;
+            this.dgvNotBelongingVehicleForVehicleTransfer.Size = new System.Drawing.Size(548, 344);
+            this.dgvNotBelongingVehicleForVehicleTransfer.TabIndex = 0;
+            // 
+            // VTVehiclePlate
+            // 
+            this.VTVehiclePlate.HeaderText = "Taşıt Plaka";
+            this.VTVehiclePlate.Name = "VTVehiclePlate";
+            // 
+            // VTVehicleBrand
+            // 
+            this.VTVehicleBrand.HeaderText = "Taşıt Marka";
+            this.VTVehicleBrand.Name = "VTVehicleBrand";
+            // 
+            // VTVehicleModel
+            // 
+            this.VTVehicleModel.HeaderText = "Taşıt Model";
+            this.VTVehicleModel.Name = "VTVehicleModel";
+            // 
+            // VTMainBranchName
+            // 
+            this.VTMainBranchName.HeaderText = "Ait Olduğu Şube Adı";
+            this.VTMainBranchName.Name = "VTMainBranchName";
+            // 
+            // VTHostBranchName
+            // 
+            this.VTHostBranchName.HeaderText = "Bulunduğu Şube Adı";
+            this.VTHostBranchName.Name = "VTHostBranchName";
             // 
             // tabTransferTracking
             // 
             this.tabTransferTracking.BackColor = System.Drawing.Color.Silver;
-            this.tabTransferTracking.Location = new System.Drawing.Point(4, 24);
+            this.tabTransferTracking.Controls.Add(this.dgvActiveTransferForTransferTracking);
+            this.tabTransferTracking.Location = new System.Drawing.Point(4, 33);
             this.tabTransferTracking.Name = "tabTransferTracking";
             this.tabTransferTracking.Padding = new System.Windows.Forms.Padding(3);
-            this.tabTransferTracking.Size = new System.Drawing.Size(1132, 812);
+            this.tabTransferTracking.Size = new System.Drawing.Size(1132, 803);
             this.tabTransferTracking.TabIndex = 4;
             this.tabTransferTracking.Text = "Nakil Takibi";
+            // 
+            // dgvActiveTransferForTransferTracking
+            // 
+            dataGridViewCellStyle39.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle39.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle39.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            dataGridViewCellStyle39.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle39.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle39.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle39.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgvActiveTransferForTransferTracking.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle39;
+            this.dgvActiveTransferForTransferTracking.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvActiveTransferForTransferTracking.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.TTVehiclePlate,
+            this.TTChauffeurTCIN,
+            this.TTChauffeurName,
+            this.TTChauffeurSurname,
+            this.TTTransferStartDate});
+            dataGridViewCellStyle40.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle40.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle40.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            dataGridViewCellStyle40.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle40.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle40.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle40.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dgvActiveTransferForTransferTracking.DefaultCellStyle = dataGridViewCellStyle40;
+            this.dgvActiveTransferForTransferTracking.Location = new System.Drawing.Point(6, 6);
+            this.dgvActiveTransferForTransferTracking.Name = "dgvActiveTransferForTransferTracking";
+            this.dgvActiveTransferForTransferTracking.RowTemplate.Height = 25;
+            this.dgvActiveTransferForTransferTracking.Size = new System.Drawing.Size(1120, 791);
+            this.dgvActiveTransferForTransferTracking.TabIndex = 2;
+            // 
+            // TTVehiclePlate
+            // 
+            this.TTVehiclePlate.HeaderText = "Taşıt Plaka";
+            this.TTVehiclePlate.Name = "TTVehiclePlate";
+            // 
+            // TTChauffeurTCIN
+            // 
+            this.TTChauffeurTCIN.HeaderText = "Şoför TCKN";
+            this.TTChauffeurTCIN.Name = "TTChauffeurTCIN";
+            // 
+            // TTChauffeurName
+            // 
+            this.TTChauffeurName.HeaderText = "Şoför Ad";
+            this.TTChauffeurName.Name = "TTChauffeurName";
+            // 
+            // TTChauffeurSurname
+            // 
+            this.TTChauffeurSurname.HeaderText = "Şoför Soyad";
+            this.TTChauffeurSurname.Name = "TTChauffeurSurname";
+            // 
+            // TTTransferStartDate
+            // 
+            this.TTTransferStartDate.HeaderText = "Nakil Başlangıç Tarihi";
+            this.TTTransferStartDate.Name = "TTTransferStartDate";
             // 
             // tabActiveTransferEvents
             // 
             this.tabActiveTransferEvents.BackColor = System.Drawing.Color.Silver;
-            this.tabActiveTransferEvents.Location = new System.Drawing.Point(4, 24);
+            this.tabActiveTransferEvents.Controls.Add(this.uulbl18);
+            this.tabActiveTransferEvents.Controls.Add(this.uulbl17);
+            this.tabActiveTransferEvents.Controls.Add(this.dgvEventsForActiveTransferEvents);
+            this.tabActiveTransferEvents.Controls.Add(this.dgvActiveTransfersForActiveTransferEvents);
+            this.tabActiveTransferEvents.Location = new System.Drawing.Point(4, 33);
             this.tabActiveTransferEvents.Name = "tabActiveTransferEvents";
             this.tabActiveTransferEvents.Padding = new System.Windows.Forms.Padding(3);
-            this.tabActiveTransferEvents.Size = new System.Drawing.Size(1132, 812);
+            this.tabActiveTransferEvents.Size = new System.Drawing.Size(1132, 803);
             this.tabActiveTransferEvents.TabIndex = 5;
             this.tabActiveTransferEvents.Text = "Aktif Nakil Olayları";
+            // 
+            // uulbl18
+            // 
+            this.uulbl18.AutoSize = true;
+            this.uulbl18.ForeColor = System.Drawing.Color.Blue;
+            this.uulbl18.Location = new System.Drawing.Point(562, 4);
+            this.uulbl18.Name = "uulbl18";
+            this.uulbl18.Size = new System.Drawing.Size(82, 26);
+            this.uulbl18.TabIndex = 11;
+            this.uulbl18.Text = "Olaylar";
+            // 
+            // uulbl17
+            // 
+            this.uulbl17.AutoSize = true;
+            this.uulbl17.ForeColor = System.Drawing.Color.Blue;
+            this.uulbl17.Location = new System.Drawing.Point(6, 4);
+            this.uulbl17.Name = "uulbl17";
+            this.uulbl17.Size = new System.Drawing.Size(139, 26);
+            this.uulbl17.TabIndex = 10;
+            this.uulbl17.Text = "Aktif Nakiller";
+            // 
+            // dgvEventsForActiveTransferEvents
+            // 
+            dataGridViewCellStyle41.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle41.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle41.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            dataGridViewCellStyle41.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle41.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle41.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle41.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgvEventsForActiveTransferEvents.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle41;
+            this.dgvEventsForActiveTransferEvents.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvEventsForActiveTransferEvents.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.ATEEventTitle});
+            dataGridViewCellStyle42.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle42.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle42.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            dataGridViewCellStyle42.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle42.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle42.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle42.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dgvEventsForActiveTransferEvents.DefaultCellStyle = dataGridViewCellStyle42;
+            this.dgvEventsForActiveTransferEvents.Location = new System.Drawing.Point(562, 33);
+            this.dgvEventsForActiveTransferEvents.Name = "dgvEventsForActiveTransferEvents";
+            this.dgvEventsForActiveTransferEvents.RowTemplate.Height = 25;
+            this.dgvEventsForActiveTransferEvents.Size = new System.Drawing.Size(564, 765);
+            this.dgvEventsForActiveTransferEvents.TabIndex = 9;
+            // 
+            // dgvActiveTransfersForActiveTransferEvents
+            // 
+            dataGridViewCellStyle43.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle43.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle43.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            dataGridViewCellStyle43.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle43.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle43.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle43.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgvActiveTransfersForActiveTransferEvents.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle43;
+            this.dgvActiveTransfersForActiveTransferEvents.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvActiveTransfersForActiveTransferEvents.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.ATEVehiclePlate,
+            this.ATEChauffeurTCIN,
+            this.ATEChauffeurName,
+            this.ATEChauffeurSurname,
+            this.ATETransferStartDate});
+            dataGridViewCellStyle44.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle44.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle44.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            dataGridViewCellStyle44.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle44.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle44.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle44.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dgvActiveTransfersForActiveTransferEvents.DefaultCellStyle = dataGridViewCellStyle44;
+            this.dgvActiveTransfersForActiveTransferEvents.Location = new System.Drawing.Point(6, 33);
+            this.dgvActiveTransfersForActiveTransferEvents.Name = "dgvActiveTransfersForActiveTransferEvents";
+            this.dgvActiveTransfersForActiveTransferEvents.RowTemplate.Height = 25;
+            this.dgvActiveTransfersForActiveTransferEvents.Size = new System.Drawing.Size(550, 765);
+            this.dgvActiveTransfersForActiveTransferEvents.TabIndex = 8;
             // 
             // tabCompletedTransfer
             // 
             this.tabCompletedTransfer.BackColor = System.Drawing.Color.Silver;
-            this.tabCompletedTransfer.Location = new System.Drawing.Point(4, 24);
+            this.tabCompletedTransfer.Controls.Add(this.uulbl19);
+            this.tabCompletedTransfer.Controls.Add(this.dgvComplatedTransfers);
+            this.tabCompletedTransfer.Location = new System.Drawing.Point(4, 33);
             this.tabCompletedTransfer.Name = "tabCompletedTransfer";
             this.tabCompletedTransfer.Padding = new System.Windows.Forms.Padding(3);
-            this.tabCompletedTransfer.Size = new System.Drawing.Size(1132, 812);
+            this.tabCompletedTransfer.Size = new System.Drawing.Size(1132, 803);
             this.tabCompletedTransfer.TabIndex = 6;
             this.tabCompletedTransfer.Text = "Tamamlanmış Nakiller";
             // 
@@ -2645,30 +2969,101 @@
             this.tabMemberCustomerRentalHistory.TabIndex = 6;
             this.tabMemberCustomerRentalHistory.Text = "Üye Müşteri Kiralama Geçmişi";
             // 
-            // VTVehiclePlate
+            // ATEVehiclePlate
             // 
-            this.VTVehiclePlate.HeaderText = "Taşıt Plaka";
-            this.VTVehiclePlate.Name = "VTVehiclePlate";
+            this.ATEVehiclePlate.HeaderText = "Taşıt Plaka";
+            this.ATEVehiclePlate.Name = "ATEVehiclePlate";
             // 
-            // VTVehicleBrand
+            // ATEChauffeurTCIN
             // 
-            this.VTVehicleBrand.HeaderText = "Taşıt Marka";
-            this.VTVehicleBrand.Name = "VTVehicleBrand";
+            this.ATEChauffeurTCIN.HeaderText = "Şoför TCKN";
+            this.ATEChauffeurTCIN.Name = "ATEChauffeurTCIN";
             // 
-            // VTVehicleModel
+            // ATEChauffeurName
             // 
-            this.VTVehicleModel.HeaderText = "Taşıt Model";
-            this.VTVehicleModel.Name = "VTVehicleModel";
+            this.ATEChauffeurName.HeaderText = "Şoför Ad";
+            this.ATEChauffeurName.Name = "ATEChauffeurName";
             // 
-            // VTMainBranchName
+            // ATEChauffeurSurname
             // 
-            this.VTMainBranchName.HeaderText = "Ait Olduğu Şube Adı";
-            this.VTMainBranchName.Name = "VTMainBranchName";
+            this.ATEChauffeurSurname.HeaderText = "Şoför Soyad";
+            this.ATEChauffeurSurname.Name = "ATEChauffeurSurname";
             // 
-            // VTHostBranchName
+            // ATETransferStartDate
             // 
-            this.VTHostBranchName.HeaderText = "Bulunduğu Şube Adı";
-            this.VTHostBranchName.Name = "VTHostBranchName";
+            this.ATETransferStartDate.HeaderText = "Nakil Başlangıç Tarihi";
+            this.ATETransferStartDate.Name = "ATETransferStartDate";
+            // 
+            // ATEEventTitle
+            // 
+            this.ATEEventTitle.HeaderText = "Başlık";
+            this.ATEEventTitle.Name = "ATEEventTitle";
+            // 
+            // uulbl19
+            // 
+            this.uulbl19.AutoSize = true;
+            this.uulbl19.ForeColor = System.Drawing.Color.Blue;
+            this.uulbl19.Location = new System.Drawing.Point(6, 4);
+            this.uulbl19.Name = "uulbl19";
+            this.uulbl19.Size = new System.Drawing.Size(234, 26);
+            this.uulbl19.TabIndex = 6;
+            this.uulbl19.Text = "Tamamlanmış Nakiller";
+            // 
+            // dgvComplatedTransfers
+            // 
+            dataGridViewCellStyle45.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle45.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle45.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            dataGridViewCellStyle45.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle45.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle45.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle45.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgvComplatedTransfers.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle45;
+            this.dgvComplatedTransfers.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvComplatedTransfers.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.CTVehiclePlate,
+            this.CTChauffeurTCIN,
+            this.CTChauffeurName,
+            this.CTChauffeurSurname,
+            this.CTTransferStartDate});
+            dataGridViewCellStyle46.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle46.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle46.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            dataGridViewCellStyle46.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle46.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle46.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle46.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dgvComplatedTransfers.DefaultCellStyle = dataGridViewCellStyle46;
+            this.dgvComplatedTransfers.Location = new System.Drawing.Point(6, 33);
+            this.dgvComplatedTransfers.Name = "dgvComplatedTransfers";
+            this.dgvComplatedTransfers.RowTemplate.Height = 25;
+            this.dgvComplatedTransfers.Size = new System.Drawing.Size(1120, 765);
+            this.dgvComplatedTransfers.TabIndex = 5;
+            // 
+            // CTVehiclePlate
+            // 
+            this.CTVehiclePlate.HeaderText = "Taşıt Plaka";
+            this.CTVehiclePlate.Name = "CTVehiclePlate";
+            // 
+            // CTChauffeurTCIN
+            // 
+            this.CTChauffeurTCIN.HeaderText = "Şoför TCKN";
+            this.CTChauffeurTCIN.Name = "CTChauffeurTCIN";
+            // 
+            // CTChauffeurName
+            // 
+            this.CTChauffeurName.HeaderText = "Şoför Ad";
+            this.CTChauffeurName.Name = "CTChauffeurName";
+            // 
+            // CTChauffeurSurname
+            // 
+            this.CTChauffeurSurname.HeaderText = "Şoför Soyad";
+            this.CTChauffeurSurname.Name = "CTChauffeurSurname";
+            // 
+            // CTTransferStartDate
+            // 
+            this.CTTransferStartDate.HeaderText = "Nakil Başlangıç Tarihi";
+            this.CTTransferStartDate.Name = "CTTransferStartDate";
             // 
             // FormManagementBranchMainMenu
             // 
@@ -2719,7 +3114,7 @@
             this.tabCompletedRentals.ResumeLayout(false);
             this.tabCompletedRentals.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvCompletedRentals)).EndInit();
-            this.tabTranportWorks.ResumeLayout(false);
+            this.tabTransferWorks.ResumeLayout(false);
             this.tbcTransferWorks.ResumeLayout(false);
             this.tabCompletedTransferEvents.ResumeLayout(false);
             this.tabCompletedTransferEvents.PerformLayout();
@@ -2736,8 +3131,18 @@
             this.gbxAddTransferEvent.ResumeLayout(false);
             this.gbxAddTransferEvent.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvActiveTransfersForTransferEventWorks)).EndInit();
-            this.tabVehicleTransport.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.dgvNotBelongingVehicleForVehicleTransport)).EndInit();
+            this.tabVehicleTransfer.ResumeLayout(false);
+            this.tabVehicleTransfer.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvChauffeursForVehicleTransfer)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvNotBelongingVehicleForVehicleTransfer)).EndInit();
+            this.tabTransferTracking.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.dgvActiveTransferForTransferTracking)).EndInit();
+            this.tabActiveTransferEvents.ResumeLayout(false);
+            this.tabActiveTransferEvents.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvEventsForActiveTransferEvents)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvActiveTransfersForActiveTransferEvents)).EndInit();
+            this.tabCompletedTransfer.ResumeLayout(false);
+            this.tabCompletedTransfer.PerformLayout();
             this.tabBranchWorks.ResumeLayout(false);
             this.tbcBranchWorks.ResumeLayout(false);
             this.tabBranchFinancialWorks.ResumeLayout(false);
@@ -2752,6 +3157,7 @@
             this.tbcVehicleWorks.ResumeLayout(false);
             this.tabMemberCustomerWorks.ResumeLayout(false);
             this.tbcMemberCustomerWorks.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.dgvComplatedTransfers)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -2764,7 +3170,7 @@
         private Button btnChangePassword;
         private TabControl tbcMain;
         private TabPage tabVehicleRental;
-        private TabPage tabTranportWorks;
+        private TabPage tabTransferWorks;
         private TabPage tabBranchWorks;
         private TabPage tabBranchFinancialWorks;
         private TabPage tabCompanyFinancialWorks;
@@ -2784,7 +3190,7 @@
         private TabPage tabCompletedTransferEvents;
         private TabPage tabTransferCompletion;
         private TabPage tabActiveTransferEventWorks;
-        private TabPage tabVehicleTransport;
+        private TabPage tabVehicleTransfer;
         private TabPage tabTransferTracking;
         private TabPage tabActiveTransferEvents;
         private TabPage tabCompletedTransfer;
@@ -2971,11 +3377,44 @@
         private DataGridViewTextBoxColumn ATEWChauffeurName;
         private DataGridViewTextBoxColumn ATEWChauffeurSurname;
         private DataGridViewTextBoxColumn ATEWTransferStartDate;
-        private DataGridView dgvNotBelongingVehicleForVehicleTransport;
+        private DataGridView dgvNotBelongingVehicleForVehicleTransfer;
         private DataGridViewTextBoxColumn VTVehiclePlate;
         private DataGridViewTextBoxColumn VTVehicleBrand;
         private DataGridViewTextBoxColumn VTVehicleModel;
         private DataGridViewTextBoxColumn VTMainBranchName;
         private DataGridViewTextBoxColumn VTHostBranchName;
+        private DataGridView dgvChauffeursForVehicleTransfer;
+        private Label lblStartDateForVehicleTransfer;
+        private Label lblMainBranchForVehicleTransfer;
+        private Label lblVehicleForVehicleTransfer;
+        private Label lblChauffeurForVehicleTransfer;
+        private MonthCalendar calForVehicleTransfer;
+        private DataGridViewTextBoxColumn VTChauffeurTCIN;
+        private DataGridViewTextBoxColumn VTChauffeurName;
+        private DataGridViewTextBoxColumn VTChauffeurSurname;
+        private Button btnStartTransfer;
+        private DataGridView dgvActiveTransferForTransferTracking;
+        private Label uulbl18;
+        private Label uulbl17;
+        private DataGridView dgvEventsForActiveTransferEvents;
+        private DataGridView dgvActiveTransfersForActiveTransferEvents;
+        private DataGridViewTextBoxColumn TTVehiclePlate;
+        private DataGridViewTextBoxColumn TTChauffeurTCIN;
+        private DataGridViewTextBoxColumn TTChauffeurName;
+        private DataGridViewTextBoxColumn TTChauffeurSurname;
+        private DataGridViewTextBoxColumn TTTransferStartDate;
+        private DataGridViewTextBoxColumn ATEVehiclePlate;
+        private DataGridViewTextBoxColumn ATEChauffeurTCIN;
+        private DataGridViewTextBoxColumn ATEChauffeurName;
+        private DataGridViewTextBoxColumn ATEChauffeurSurname;
+        private DataGridViewTextBoxColumn ATETransferStartDate;
+        private DataGridViewTextBoxColumn ATEEventTitle;
+        private Label uulbl19;
+        private DataGridView dgvComplatedTransfers;
+        private DataGridViewTextBoxColumn CTVehiclePlate;
+        private DataGridViewTextBoxColumn CTChauffeurTCIN;
+        private DataGridViewTextBoxColumn CTChauffeurName;
+        private DataGridViewTextBoxColumn CTChauffeurSurname;
+        private DataGridViewTextBoxColumn CTTransferStartDate;
     }
 }
